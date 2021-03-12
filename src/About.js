@@ -1,9 +1,10 @@
-import React from "react"
+import React from "react";
+import './styles/About.css';
  
 function About(props) {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="about_div">
+      <h1>About Me:</h1>
     </div>
   )
 }
