@@ -7,13 +7,14 @@ import About from './About.js';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="navigation">
+      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <img src={logo} className="logo" alt="Logo" />
-        <div className="navigation">
           <div className="navigation-sub">
             <a href="#about" >About</a>
             <a href="#projects" >Projects</a>
-          </div>
+      
+      <div className="App">
         </div>
         <div className="landing">
           <p>Mabuhay! My name is</p>
@@ -25,7 +26,7 @@ function App() {
         <div id= "projects">
           <Projects/>
         </div>
-   
+        </div>
       </div>
     </BrowserRouter>
   );

@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -8,16 +9,16 @@ html{
   overflow-y: hidden;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -44,7 +45,11 @@ html{
 }
 
 .navigation{
-
+  height: 100%;
+  width: 50px;
+  display: flex;
+  position: sticky;
+  left: 0px;
   background-color: #5ce1e6;
   padding: 20px 10px 15px 10px;
 }
