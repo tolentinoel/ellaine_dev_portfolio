@@ -8,7 +8,7 @@ import makegotchi from './images/makegotchi_thumb.png';
 function Projects(props) {
   return (
     
-    <div>
+    <div className="projectDiv">
       <h1>Projects</h1>
       <Thumbnail
         link="https://tolentinoel.github.io/flip"
@@ -30,6 +30,8 @@ function Projects(props) {
         title="SplashGlam"
         githubRepo="https://github.com/tolentinoel/splashglam_frontend"
       />
+
+
     </div>
   )
 }
