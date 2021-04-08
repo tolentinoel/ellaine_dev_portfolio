@@ -10,10 +10,10 @@ function App() {
       <div className="navigation">
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <img src={logo} className="logo" alt="Logo" />
-          <div className="navigation-sub">
-            <a href="#about" >About</a>
-            <a href="#projects" >Projects</a>
-      
+          <div className="navigationSub">
+            <a href="#about" className="tab">About</a>
+            <a href="#projects" className="tab">Projects</a>
+
       <div className="App">
         </div>
         <div className="landing">

@@ -1,3 +1,14 @@
 .about_div{
     height: 100vh;
+    text-decoration: none;
+}
+
+.LI-simple-link{
+    text-decoration: none;
+    color: cyan;
+}
+
+.aboutMeContent{
+    padding-left: 9%;
+    padding-right: 9%;
 }

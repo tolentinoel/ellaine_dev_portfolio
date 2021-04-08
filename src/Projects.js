@@ -7,7 +7,7 @@ import makegotchi from './images/makegotchi_thumb.png';
 
 function Projects(props) {
   return (
-    
+
     <div className="projectDiv">
       <h1>Projects</h1>
       <Thumbnail
@@ -35,5 +35,5 @@ function Projects(props) {
     </div>
   )
 }
- 
+
 export default Projects;
