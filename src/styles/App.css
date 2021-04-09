@@ -6,8 +6,10 @@ html{
 }
 
 #root{
+  border-left: solid;
+  border-width: 2.3rem;
+  border-color: white;
   text-align: center;
-  width: 100vw;
 }
 
 .App {
@@ -15,16 +17,6 @@ html{
   overflow-y: hidden;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .App-header {
   background-color: #282c34;
@@ -47,40 +39,36 @@ html{
   left: 15px;
   width: 45px;
   margin-top: 3px;
-  /* border-radius: 15px; */
+  
 }
 
 .navigation{
-  height: 100%;
+  /* height: 100%;
   width: 50px;
   display: flex;
   position: sticky;
   left: 0px;
-  background-color: #5ce1e6;
+  background-color: #5ce1e6; */
+  text-align: end;
   padding: 20px 10px 15px 10px;
 }
 
 
 .landing{
   height: 100vh;
-  width: 100vw;
-  padding: 20px;
+ 
 }
 
 .tab{
   text-decoration: none;
-  color: cyan;
-  /* display: flex;
-  position: relative;
-  align-items: center;
-  float: inline-end; */
+  color: #bfff00;
+  padding-left: 2rem;
+  padding-right: 1rem;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.aboutMeContent{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+

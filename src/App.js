@@ -8,25 +8,30 @@ function App() {
   return (
     <BrowserRouter>
       <div className="navigation">
-      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <img src={logo} className="logo" alt="Logo" />
           <div className="navigationSub">
             <a href="#about" className="tab">About</a>
             <a href="#projects" className="tab">Projects</a>
+          </div>
+      </div>
 
       <div className="App">
-        </div>
+
         <div className="landing">
-          <p>Mabuhay! My name is</p>
+          <h1>Mabuhay! My name is</h1>
           <h1>Ellaine Tolentino!</h1>
+          <h3 className="aboutMeContent">I am a Silicon Valley-based online Software Engineering graduate, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h3>
         </div>
+
         <div id="about">
           <About/>
         </div>
+
         <div id= "projects">
           <Projects/>
         </div>
-        </div>
+
       </div>
     </BrowserRouter>
   );
