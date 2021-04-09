@@ -1,3 +1,4 @@
+
 html{
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
@@ -39,16 +40,10 @@ html{
   left: 15px;
   width: 45px;
   margin-top: 3px;
-  
+
 }
 
-.navigation{
-  /* height: 100%;
-  width: 50px;
-  display: flex;
-  position: sticky;
-  left: 0px;
-  background-color: #5ce1e6; */
+.navigation {
   text-align: end;
   padding: 20px 10px 15px 10px;
 }
@@ -56,8 +51,28 @@ html{
 
 .landing{
   height: 100vh;
- 
+
 }
+
+.lHeader {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#mabuhay{
+  font-size: 65px;
+}
+
+#name1{
+  font-size: 35px;
+}
+
+#name2{
+  font-size: 50px;
+  line-height: 50px;
+}
+
 
 .tab{
   text-decoration: none;
@@ -66,9 +81,11 @@ html{
   padding-right: 1rem;
 }
 
-.aboutMeContent{
+.summary{
   padding-left: 5%;
   padding-right: 5%;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
 }
 
 

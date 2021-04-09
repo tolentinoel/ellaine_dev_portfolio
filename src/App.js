@@ -1,4 +1,4 @@
-import logo from './images/logo2.png';
+import logo from './images/Logo3.png';
 import './styles/App.css';
 import { BrowserRouter} from 'react-router-dom';
 import Projects from './Projects.js';
@@ -19,9 +19,10 @@ function App() {
       <div className="App">
 
         <div className="landing">
-          <h1>Mabuhay! My name is</h1>
-          <h1>Ellaine Tolentino!</h1>
-          <h3 className="aboutMeContent">I am a Silicon Valley-based online Software Engineering graduate, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h3>
+          <h1 className="lHeader" id="mabuhay">Mabuhay! </h1>
+          <h1 className="lHeader" id="name1">My name is </h1>
+          <h1 className="lHeader" id="name2">Ellaine Tolentino.</h1>
+          <h2 className="summary">I am a Silicon Valley-based online Software Engineering graduate, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h2>
         </div>
 
         <div id="about">

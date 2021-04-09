@@ -1,6 +1,11 @@
 .about_div{
     height: 100vh;
     text-decoration: none;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.aboutLabel{
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .LI-simple-link{
