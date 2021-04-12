@@ -23,6 +23,10 @@
     /* font-size: 20px; */
 }
 
+#info{
+    margin: 10px auto 10px auto;
+}
+
 
 #pic{
     border-radius: 20em;
