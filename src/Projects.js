@@ -9,7 +9,8 @@ function Projects(props) {
   return (
 
     <div className="projectDiv">
-      <h1>Projects</h1>
+      <h1 className="projectHeader">Projects</h1>
+      <span>
       <Thumbnail
         link="https://tolentinoel.github.io/flip"
         image={flip}
@@ -30,6 +31,8 @@ function Projects(props) {
         title="SplashGlam"
         githubRepo="https://github.com/tolentinoel/splashglam_frontend"
       />
+      </span>
+      
 
 
     </div>

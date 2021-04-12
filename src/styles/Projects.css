@@ -1,6 +1,11 @@
 .projectDiv{
-    padding: 20%;
+    padding: 10%;
 
+}
+
+.projectHeader{
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
 }
 
 .project{
@@ -8,5 +13,6 @@
 }
 
 #pic{
-    border-radius: 5rem;
+    border-radius: 20em;
+    width:23em;
 }
