@@ -1,16 +1,24 @@
 .projectDiv{
     padding: 10%;
+    font-family: 'Advent Pro', sans-serif;
 
 }
 
 .projectHeader{
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
+    font-size: 2.5rem;
 }
 
 .project{
     display: inline-block;
+
 }
+.projectTitle, .projectInfo {
+    color:white;
+    text-decoration: none;
+}
+
 
 #pic{
     border-radius: 20em;
