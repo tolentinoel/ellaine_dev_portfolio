@@ -15,7 +15,7 @@ function App() {
             <a href="#about" className="tab">About</a>
             <a href="#projects" className="tab">Projects</a>
           </div>
-          
+        
       </div>
 
       <div className="App">
@@ -24,7 +24,7 @@ function App() {
           <h1 className="lHeader" id="mabuhay">Mabuhay! </h1>
           {/* <h1 className="lHeader" id="name1">My name is </h1> */}
           <h1 className="lHeader" id="name2"> My name is Ellaine.</h1>
-          <h2 className="summary">I am a Silicon Valley-based online Software Engineering graduate, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h2>
+          <h2 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h2>
           <a href="mailto:tolentino.el@gmail.com">
             <Button variant="outline-light">
               Keep in touch!
