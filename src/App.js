@@ -40,7 +40,9 @@ function App() {
         <div id= "projects">
           <Projects/>
         </div>
-
+        <div id="footer">
+          FOOTER is here
+        </div>
       </div>
     </BrowserRouter>
   );
