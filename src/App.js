@@ -3,6 +3,7 @@ import './styles/App.css';
 import { BrowserRouter} from 'react-router-dom';
 import Projects from './Projects.js';
 import About from './About.js';
+import Experience from './Experience.js';
 import Button from 'react-bootstrap/Button';
 
 function App() {
@@ -40,9 +41,22 @@ function App() {
         <div id= "projects">
           <Projects/>
         </div>
+
+        <div id= "experience">
+          WORK EXPERIENCE
+          <Experience />
+        </div>
+
+        <div id= "blogs">
+          BLOGS? CODEPEN?
+          
+        </div>
+
+
         <div id="footer">
           FOOTER is here
         </div>
+
       </div>
     </BrowserRouter>
   );
