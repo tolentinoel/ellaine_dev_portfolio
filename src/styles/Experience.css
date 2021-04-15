@@ -1,10 +1,10 @@
-.projectDiv{
+.expDiv{
     padding: 3rem;
     font-family: 'Advent Pro', sans-serif;
 
 }
 
-.projectHeader{
+.expHeader{
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
     font-size: 2.5rem;
@@ -15,21 +15,10 @@
     padding-bottom: 20px;
     padding: 0px 15px 0px 15px;
 }
-.projectTitle, .projectInfo {
+/* .projectTitle, .projectInfo {
     color:white;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* font-size: 20px; */
-}
+} */
 
-#info{
-    margin: 10px auto 10px auto;
-}
-
-
-#pic{
-    border-radius: 20em;
-    width: 18em;
-    padding-bottom: 10px;
-}

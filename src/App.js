@@ -14,50 +14,58 @@ function App() {
         <img src={logo} className="logo" alt="Logo" />
           <div className="navigationSub">
             <a href="#about" className="tab">About</a>
+            <a href="#experience" className="tab">Experience</a>
             <a href="#projects" className="tab">Projects</a>
+            <a href="#contact" className="tab">Contact</a>
           </div>
-        
+
       </div>
 
       <div className="App">
 
+        <div className="headerDiv">
+          <h1 className="lHeader" id="mabuhay">Mabuhay! My name is </h1>
+          <h1 className="lHeader" id="name2"> Ellaine.</h1>
+        </div>
+
+
+
         <div className="landing">
-          <h1 className="lHeader" id="mabuhay">Mabuhay! </h1>
-          {/* <h1 className="lHeader" id="name1">My name is </h1> */}
-          <h1 className="lHeader" id="name2"> My name is Ellaine.</h1>
-          <h2 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in the hospitality industry and a background in Interior Design. I also do like making friends! Don't hesitate to stay in touch! Let's connect!</h2>
+          <h2 className="summary">I am a builder, a designer, & a developer with a keen eye for design in all forms. </h2>
+          <h3 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in the hospitality industry, construction and a background in Interior Design.</h3>
           <a href="mailto:tolentino.el@gmail.com">
             <Button variant="outline-light">
               Keep in touch!
             </Button>
           </a>
         </div>
-       
+
 
         <div id="about">
           <About/>
+        </div>
+
+        <div id= "experience">
+          <Experience />
         </div>
 
         <div id= "projects">
           <Projects/>
         </div>
 
-        <div id= "experience">
-          WORK EXPERIENCE
-          <Experience />
-        </div>
+        <div id= "contact">
+          <h2>LET'S TALK?</h2>
 
-        <div id= "blogs">
-          BLOGS? CODEPEN?
-          
         </div>
-
 
         <div id="footer">
-          FOOTER is here
+
+            <p id="footText">Built & Designed by Ellaine Tolentino</p>
+
         </div>
 
       </div>
+
     </BrowserRouter>
   );
 }

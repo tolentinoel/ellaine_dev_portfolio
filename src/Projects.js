@@ -1,7 +1,7 @@
 import React from 'react';
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import './styles/App.css';
-import flip from './images/flip_thumb3.png';
+import flip from './images/flip_thumb.png';
 import splash from './images/splashGlam_thumb.png';
 import makegotchi from './images/makegotchi_thumb.png';
 

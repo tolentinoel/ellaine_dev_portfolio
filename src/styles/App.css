@@ -64,18 +64,17 @@ html{
 }
 
 #mabuhay{
-  font-size: 65px;
+  font-size: 35px;
   letter-spacing: 2px;
+  text-align: initial;
 }
 
-#name1{
-  font-size: 35px;
-}
 
 #name2{
-  font-size: 50px;
+  font-size: 65px;
   line-height: 50px;
   letter-spacing: 2px;
+  text-align: initial;
 }
 
 
@@ -91,6 +90,12 @@ html{
   padding-right: 5%;
   font-family: 'Advent Pro', sans-serif;
   font-weight: 400;
+  text-align: initial;
 }
 
 
+#footer{
+  /* background-color: black; */
+  height: 35px;
+  width: 100vw;
+}

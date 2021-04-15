@@ -2,14 +2,18 @@
     height: 100vh;
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
+    text-align: initial;
 }
 
 .aboutLabel{
     font-family: 'Luckiest Guy', cursive;
+    margin-left: 1.8em;
 }
 
 .aboutText{
     padding:1.1em;
+    margin-left: 1.1em;
+    margin-right: 1.1em;
 }
 
 .LI-simple-link{
