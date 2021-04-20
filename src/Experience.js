@@ -45,15 +45,23 @@ class Experience extends React.Component{
 
                 <Tab.Pane eventKey="second">
                   <h4>Front Office Supervisor</h4>
+                  <ListGroup variant="flush" >
+                    <ListGroup.Item id="info1b"><li>Balances hotel occupancy and contributes to company revenue by upselling.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2b"><li>Serves as manager on duty during the shift and implements standard operating procedures.</li></ListGroup.Item>
+                    <ListGroup.Item id="info3b"><li>Provides hands-on training & customer relationship management coaching to new associates.</li></ListGroup.Item>
+                    <ListGroup.Item id="info4b"><li>Monitors employee productivity, provides constructive feedback and coaching.</li></ListGroup.Item>
+                    <ListGroup.Item id="info5b"><li>Awarded as Employee of the Month in December 2015</li></ListGroup.Item>
+                  </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
                   <h4>Guest Service Agent</h4>
                   <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2"><li>Monitors property occupancy (350 rooms) and performs standard operating procedures. </li></ListGroup.Item>
-                    <ListGroup.Item id="info3"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event (1,000 - 5,000 pax/event).</li></ListGroup.Item>
-
+                    <ListGroup.Item id="info1a"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2a"><li>Monitors property occupancy with 315 rooms and performs standard operating procedures. </li></ListGroup.Item>
+                    <ListGroup.Item id="info3a"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event </li></ListGroup.Item>
+                    <ListGroup.Item id="info4a"><li>Awarded as Front Office Service Superstar in 2014</li></ListGroup.Item>
+                    
                   </ListGroup>
                 </Tab.Pane>
 
