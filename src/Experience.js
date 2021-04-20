@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
+import ListGroup from 'react-bootstrap/ListGroup'
 
 class Experience extends React.Component{
 
@@ -16,7 +17,7 @@ class Experience extends React.Component{
         <div id="expInfo">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
-            <Col sm={4}>
+            <Col sm={3.5}>
               <Nav variant="tabs" className="flex-column">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Hilton</Nav.Link>
@@ -35,8 +36,8 @@ class Experience extends React.Component{
                 </Nav.Item>
               </Nav>
             </Col>
-           
-            <Col sm={8}>
+
+            <Col lg={8}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <h4>Front Desk Agent</h4>
@@ -48,20 +49,39 @@ class Experience extends React.Component{
 
                 <Tab.Pane eventKey="third">
                   <h4>Guest Service Agent</h4>
+                  <ListGroup variant="flush" >
+                    <ListGroup.Item id="info1"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2"><li>Monitors property occupancy (350 rooms) and performs standard operating procedures. </li></ListGroup.Item>
+                    <ListGroup.Item id="info3"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event (1,000 - 5,000 pax/event).</li></ListGroup.Item>
+
+                  </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fourth">
                   <h4>Construction Intern</h4>
+                  <ListGroup variant="flush" >
+                    <ListGroup.Item id="info1"><li>Provided detailed proposals to clients including but not limited to contracts, working, drawings, & color schemes.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2"><li>Handled paperwork, payments and consultation between contractors, clients & suppliers.</li></ListGroup.Item>
+                    <ListGroup.Item id="info3"><li>Proficient in operating tools and machinery in carpentry, masonry, and painting.</li></ListGroup.Item>
+
+                  </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fifth">
                   <h4>Interior Designer</h4>
+                  <ListGroup variant="flush" >
+                    <ListGroup.Item id="info1"><li>Prepares sketches, proposals, quotations, and contracts for the clients.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2"><li>Manages project planning, design execution, and revisions between contractors, clients & suppliers.</li></ListGroup.Item>
+                    <ListGroup.Item id="info3"><li>Oversees the progress of project work and updates the project plans to reflect actual performance.</li></ListGroup.Item>
+                    <ListGroup.Item id="info4"><li>Delivers highly detailed swatch board & 2D/3D CAD working drawings.</li></ListGroup.Item>
+                  </ListGroup>
+
                 </Tab.Pane>
               </Tab.Content>
             </Col>
           </Row>
         </Tab.Container>
-  
+
         </div>
 
       </div>

@@ -1,5 +1,5 @@
 .expDiv{
-    padding: 4rem;
+    padding: 4rem 2rem;
     font-family: 'Advent Pro', sans-serif;
     height: 100vh;
 }
@@ -9,6 +9,7 @@
     letter-spacing: 2px;
     font-size: 3rem;
     text-align: initial;
+    padding-left: 5%;
 }
 
 .project{
@@ -24,9 +25,21 @@
 } */
 
 #expInfo{
-    margin-left: 3em;
-    margin-right: 3em;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
     text-align: initial;
     font-size: 1.2em;
 }
 
+
+
+#info1, #info2, #info3, #info4{
+    position: relative;
+    display: block;
+    padding: 0.15rem 1.25rem;
+    border-bottom: 1px solid rgb(255 255 255 / 11%);
+    color: greenyellow;
+    background-color:#282c34;
+    font-size: 90%;
+}

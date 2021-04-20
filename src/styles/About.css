@@ -7,13 +7,14 @@
 
 .aboutLabel{
     font-family: 'Luckiest Guy', cursive;
-    margin-left: 2em;
+    padding-left: 5%;
+    
 }
 
 .aboutText{
     padding:1.1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 
