@@ -41,6 +41,12 @@ class Experience extends React.Component{
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <h4>Front Desk Agent</h4>
+                  <ListGroup variant="flush" >
+                    <ListGroup.Item id="info1c"><li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li></ListGroup.Item>
+                    <ListGroup.Item id="info2c"><li>Proficient in operating systems and brand loyalty programs.</li></ListGroup.Item>
+                    <ListGroup.Item id="info3c"><li>Contributes to company revenue by upselling additional facilities and services.</li></ListGroup.Item>
+                    <ListGroup.Item id="info4c"><li>Provides accurate, descriptive company information to clients including the hours of operation, facility features, tourist destinations, and all services or amenities available.</li></ListGroup.Item>
+                  </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
@@ -58,10 +64,10 @@ class Experience extends React.Component{
                   <h4>Guest Service Agent</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1a"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2a"><li>Monitors property occupancy with 315 rooms and performs standard operating procedures. </li></ListGroup.Item>
-                    <ListGroup.Item id="info3a"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event </li></ListGroup.Item>
+                    <ListGroup.Item id="info2a"><li>Maintains property occupancy of 100% with 315 rooms and performs standard operating procedures. </li></ListGroup.Item>
+                    <ListGroup.Item id="info3a"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event.</li></ListGroup.Item>
                     <ListGroup.Item id="info4a"><li>Awarded as Front Office Service Superstar in 2014</li></ListGroup.Item>
-                    
+                    <ListGroup.Item id="info5a"><li>Awarded as November 2014's Team Member of the Month</li></ListGroup.Item>
                   </ListGroup>
                 </Tab.Pane>
 
