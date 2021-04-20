@@ -1,13 +1,14 @@
 .expDiv{
-    padding: 3rem;
+    padding: 4rem;
     font-family: 'Advent Pro', sans-serif;
-
+    height: 100vh;
 }
 
 .expHeader{
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 2px;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    text-align: initial;
 }
 
 .project{
@@ -21,4 +22,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
 } */
+
+#expInfo{
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: initial;
+    font-size: 1.2em;
+}
 
