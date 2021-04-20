@@ -61,7 +61,7 @@ function App() {
         <div id="footer">
 
             <p id="footText">Built & Designed by Ellaine Tolentino</p>
-
+           
         </div>
 
       </div>
