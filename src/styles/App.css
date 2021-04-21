@@ -18,7 +18,7 @@ html{
 .App {
   text-align: center;
   overflow-y: hidden;
-  padding-top: 1rem;
+  padding-top: 6rem;
 }
 
 
@@ -49,6 +49,10 @@ html{
 .navigation {
   text-align: end;
   padding: 20px 10px 15px 10px;
+  position: fixed;
+  right: 0;
+  background: linear-gradient(#1b2719, #343a408a);
+  width: 100vw;
 }
 
 
@@ -67,6 +71,7 @@ html{
   font-size: 35px;
   letter-spacing: 2px;
   text-align: initial;
+  padding:1rem 1rem;
 }
 
 
@@ -75,6 +80,7 @@ html{
   line-height: 50px;
   letter-spacing: 2px;
   text-align: initial;
+  padding: 0rem 1rem;
 }
 
 
@@ -86,17 +92,21 @@ html{
 }
 
 .summary{
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
   font-family: 'Advent Pro', sans-serif;
   font-weight: 400;
   text-align: initial;
+
 }
 
 
 #footer{
-  /* background-color: black; */
+  background-color: black;
   height: 35px;
   width: 100vw;
 }
 
+#footText{
+  font-family: 'Advent Pro', sans-serif;
+}

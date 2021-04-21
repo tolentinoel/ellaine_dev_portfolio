@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter>
       <div className="navigation">
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-        <img src={logo} className="logo" alt="Logo" />
           <div className="navigationSub">
             <a href="#about" className="tab">About</a>
             <a href="#experience" className="tab">Experience</a>
@@ -20,15 +19,14 @@ function App() {
           </div>
 
       </div>
-
+      
+      <img src={logo} className="logo" alt="Logo" />
+      
       <div className="App">
-
         <div className="headerDiv">
           <h1 className="lHeader" id="mabuhay">Mabuhay! My name is </h1>
           <h1 className="lHeader" id="name2"> Ellaine.</h1>
         </div>
-
-
 
         <div className="landing">
           <h2 className="summary">I am a builder, a designer, & a developer with a keen eye for design in all forms. </h2>

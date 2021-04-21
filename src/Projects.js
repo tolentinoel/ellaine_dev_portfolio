@@ -4,7 +4,7 @@ import './styles/App.css';
 import flip from './images/flip_thumb.png';
 import splash from './images/splashGlam_thumb.png';
 import makegotchi from './images/makegotchi_thumb.png';
-
+import football from './images/FF_thumb.png';
 
 function Projects(props) {
   return (
@@ -32,9 +32,15 @@ function Projects(props) {
           title="SplashGlam"
           githubRepo="https://github.com/tolentinoel/splashglam_frontend"
         />
-      </span>
-      
 
+          <Thumbnail
+          link="https://www.youtube.com/watch?v=U66aECUWbTQ&t=1s"
+          image={football}
+          title="FootballFanatic"
+          githubRepo="https://github.com/tolentinoel/footballFanatic"
+        />
+
+      </span>
 
     </div>
   )
