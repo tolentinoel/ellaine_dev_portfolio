@@ -1,5 +1,5 @@
 .projectDiv{
-    padding: 3rem;
+    padding: 5rem 2.2rem;
     font-family: 'Advent Pro', sans-serif;
 
 }
@@ -31,6 +31,7 @@
 
 #pic{
     border-radius: 20em;
-    width: 18em;
-    padding-bottom: 10px;
+    width: 15em;
+    padding-bottom: 7px;
+    padding-top: 15px;
 }
