@@ -3,19 +3,18 @@
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
     text-align: initial;
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 .aboutLabel{
     font-family: 'Luckiest Guy', cursive;
-    padding-left: 5%;
+    padding-left: 2.5rem;
     
 }
 
 .aboutText{
-    padding:1.1em;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding: 1.1rem 2.5rem;
+   
 }
 
 

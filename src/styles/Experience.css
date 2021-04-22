@@ -1,5 +1,5 @@
 .expDiv{
-    padding: 4rem 2rem;
+    padding: 7rem 2rem;
     font-family: 'Advent Pro', sans-serif;
     height: 100vh;
 }
@@ -17,29 +17,37 @@
     padding-bottom: 20px;
     padding: 0px 15px 0px 15px;
 }
-/* .projectTitle, .projectInfo {
-    color:white;
-    text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-} */
+
+.expInfoHeader{
+    font-family: 'Luckiest Guy', cursive;
+    
+}
+
 
 #expInfo{
     padding-left: 6%;
     padding-right: 6%;
-    padding-top: 1%;
     text-align: initial;
     font-size: 1.2em;
 }
 
+#companyPills{
+    padding-top:0rem;
+}
+#expInfoText{
+    padding-top:1rem;
+}
 
 
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {
     position: relative;
-    display: block;
-    padding: 0.15rem 1.25rem;
+    display: flex;
+    padding: 0.15rem 1rem;
     border-bottom: 1px solid rgb(255 255 255 / 11%);
     color: greenyellow;
     background-color:#282c34;
     font-size: 90%;
+
 }
+
+
