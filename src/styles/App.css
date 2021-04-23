@@ -2,7 +2,7 @@
 html{
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-
+  
 }
 
 #root{
@@ -14,8 +14,7 @@ html{
 
 .App {
   text-align: center;
-  overflow-y: hidden;
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 

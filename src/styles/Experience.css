@@ -1,7 +1,9 @@
 .expDiv{
     padding: 7rem 2rem;
+    margin-top: 7em;
     font-family: 'Advent Pro', sans-serif;
     height: 100vh;
+    font-size: larger;
 }
 
 .expHeader{
@@ -27,6 +29,7 @@
 #expInfo{
     padding-left: 6%;
     padding-right: 6%;
+    margin-top: 5%;
     text-align: initial;
     font-size: 1.2em;
 }

@@ -1,5 +1,9 @@
+#about{
+    height: 90vh;
+   
+}
+
 .aboutDiv{
-    height: 100vh;
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
     text-align: initial;
@@ -9,7 +13,7 @@
 .aboutLabel{
     font-family: 'Luckiest Guy', cursive;
     padding-left: 2.5rem;
-    
+
 }
 
 .aboutTextDiv{
@@ -21,15 +25,22 @@
 }
 
 .aboutText{
-    padding: 1.1rem 3rem;
+    padding: 1rem 1.2rem;
     letter-spacing: .018em;
+    font-size: x-large;
+}
+
+
+.soloPhotoDiv{
+    margin-right: 3em;
 }
 
 
 .soloPhoto{
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 170px;
+
 
 }
 
