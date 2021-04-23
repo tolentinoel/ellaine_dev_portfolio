@@ -3,19 +3,44 @@
     text-decoration: none;
     font-family: 'Advent Pro', sans-serif;
     text-align: initial;
-    padding-top: 4rem;
+    padding-top: 7rem;
 }
 
 .aboutLabel{
     font-family: 'Luckiest Guy', cursive;
-    padding-left: 5%;
+    padding-left: 2.5rem;
     
 }
 
+.aboutTextDiv{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2px;
+    padding: 0px 25px;
+    text-align: center;
+}
+
 .aboutText{
-    padding:1.1em;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding: 1.1rem 3rem;
+    letter-spacing: .018em;
 }
 
 
+.soloPhoto{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 170px;
+
+}
+
+
+@media (max-width: 768px){
+
+section {
+    padding: 80px 0px;
+}
+.aboutTextDiv{
+    display:block;
+}
+
+}

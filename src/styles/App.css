@@ -7,9 +7,6 @@ html{
 
 #root{
   scroll-behavior: smooth;
-  border-left: solid;
-  border-width: 2.3rem;
-  border-color: white;
   text-align: center;
   color: white;
   background-color: #282c34;
@@ -33,32 +30,25 @@ html{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-
-.logo{
-  position: absolute;
-  left: 15px;
-  width: 45px;
-  margin-top: 3px;
-
-}
-
-.navigation {
-  text-align: end;
-  padding: 20px 10px 15px 10px;
-  position: fixed;
-  right: 0;
+#navigation {
   background: linear-gradient(#1b2719, #343a408a);
+  z-index: 1;
   width: 100vw;
+  
 }
 
+
+#navigationSub{
+  text-align: end;
+  
+}
 
 .landing{
-  height: 100vh;
-
+  height: 55vh;
+  width: 90vw;
+  display: inline-flex;
+  margin-bottom: 20px;
 }
 
 .lHeader {
@@ -67,41 +57,63 @@ html{
   margin-right: 30px;
 }
 
+
+.headerDiv{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+#soloDiv{
+  /* margin-right: 9rem;
+  justify-content: flex-end;
+  display: flex; */
+}
+
+
 #mabuhay{
-  font-size: 35px;
-  letter-spacing: 2px;
-  text-align: initial;
-  padding:1rem 1rem;
+  font-size: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 1rem 3rem;
 }
 
 
 #name2{
-  font-size: 65px;
-  line-height: 50px;
+  font-size: 105px;
   letter-spacing: 2px;
-  text-align: initial;
-  padding: 0rem 1rem;
+  text-align: center;
 }
 
 
-.tab{
+#tab1, #tab2, #tab3, #tab4{
   text-decoration: none;
   color: #bfff00;
-  padding-left: 2rem;
-  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .summary{
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 1em;
+  padding-right: 1em;
   font-family: 'Advent Pro', sans-serif;
   font-weight: 400;
   text-align: initial;
+  text-align: center;
 
+}
+#contactButton{
+  margin-top: 20px;
+}
+
+#contact{
+  font-family: 'Luckiest Guy', cursive;
 }
 
 
 #footer{
+  
   background-color: black;
   height: 35px;
   width: 100vw;
@@ -109,4 +121,12 @@ html{
 
 #footText{
   font-family: 'Advent Pro', sans-serif;
+}
+
+
+.logo{
+  position: fixed;
+  left: 19px;
+  width: 45px;
+  bottom: 14px;
 }

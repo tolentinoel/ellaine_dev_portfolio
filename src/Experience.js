@@ -17,8 +17,8 @@ class Experience extends React.Component{
         <div id="expInfo">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
-            <Col sm={3.5}>
-              <Nav variant="tabs" className="flex-column">
+            <Col sm={3.5} id="companyPills">
+              <Nav variant="pills" className="flex-column">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Hilton</Nav.Link>
                 </Nav.Item>
@@ -37,10 +37,10 @@ class Experience extends React.Component{
               </Nav>
             </Col>
 
-            <Col lg={8}>
+            <Col lg={8} id="expInfoText">
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <h4>Front Desk Agent</h4>
+                  <h4 className="expInfoHeader">Front Desk Agent</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1c"><li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li></ListGroup.Item>
                     <ListGroup.Item id="info2c"><li>Proficient in operating systems and brand loyalty programs.</li></ListGroup.Item>
@@ -50,7 +50,7 @@ class Experience extends React.Component{
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  <h4>Front Office Supervisor</h4>
+                  <h4 className="expInfoHeader">Front Office Supervisor</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1b"><li>Balances hotel occupancy and contributes to company revenue by upselling.</li></ListGroup.Item>
                     <ListGroup.Item id="info2b"><li>Serves as manager on duty during the shift and implements standard operating procedures.</li></ListGroup.Item>
@@ -61,7 +61,7 @@ class Experience extends React.Component{
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                  <h4>Guest Service Agent</h4>
+                  <h4 className="expInfoHeader">Guest Service Agent</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1a"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
                     <ListGroup.Item id="info2a"><li>Maintains property occupancy of 100% with 315 rooms and performs standard operating procedures. </li></ListGroup.Item>
@@ -72,7 +72,7 @@ class Experience extends React.Component{
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fourth">
-                  <h4>Construction Intern</h4>
+                  <h4 className="expInfoHeader">Construction Intern</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1"><li>Provided detailed proposals to clients including but not limited to contracts, working, drawings, & color schemes.</li></ListGroup.Item>
                     <ListGroup.Item id="info2"><li>Handled paperwork, payments and consultation between contractors, clients & suppliers.</li></ListGroup.Item>
@@ -82,7 +82,7 @@ class Experience extends React.Component{
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fifth">
-                  <h4>Interior Designer</h4>
+                  <h4 className="expInfoHeader">Interior Designer</h4>
                   <ListGroup variant="flush" >
                     <ListGroup.Item id="info1"><li>Prepares sketches, proposals, quotations, and contracts for the clients.</li></ListGroup.Item>
                     <ListGroup.Item id="info2"><li>Manages project planning, design execution, and revisions between contractors, clients & suppliers.</li></ListGroup.Item>
