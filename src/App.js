@@ -1,5 +1,5 @@
 import logo from './images/Logo3.png';
-import solo from './images/solo2.png';
+
 import './styles/App.css';
 import { BrowserRouter} from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
@@ -32,13 +32,13 @@ function App() {
 
         <div className="headerDiv">
           <h1 className="lHeader" id="mabuhay">Mabuhay! My name is <h1 className="lHeader" id="name2"> Ellaine.</h1></h1>
-          
+
         </div>
 
         <div className="landing">
 
           <div id="soloDiv">
-            <img src={solo} className="soloPhoto" alt="solo pic" />
+
             <h1 className="summary"><strong>I am a builder, a designer, & a developer with a keen eye for design in all forms.</strong> </h1>
             <h3 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design.</h3>
 

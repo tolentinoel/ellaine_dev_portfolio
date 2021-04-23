@@ -45,7 +45,7 @@ html{
 }
 
 .landing{
-  height: 100vh;
+  height: 55vh;
   width: 90vw;
   display: inline-flex;
   margin-bottom: 20px;
@@ -72,25 +72,18 @@ html{
 }
 
 
-.soloPhoto{
-  width: 18rem;
-  border-radius: 170px;
-}
-
 #mabuhay{
-  font-size: 30px;
+  font-size: 50px;
   letter-spacing: 1px;
-  text-align: initial;
+  text-align: center;
   padding: 1rem 3rem;
 }
 
 
 #name2{
-  font-size: 65px;
-  line-height: 50px;
+  font-size: 105px;
   letter-spacing: 2px;
-  text-align: initial;
-
+  text-align: center;
 }
 
 
