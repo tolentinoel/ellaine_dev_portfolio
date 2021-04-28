@@ -11,7 +11,7 @@ function Projects(props) {
 
     <div className="projectDiv">
       <h1 className="projectHeader">Projects</h1>
-      <span>
+      <div className="projectSubDiv">
         <Thumbnail
           link="https://tolentinoel.github.io/flip"
           image={flip}
@@ -40,7 +40,7 @@ function Projects(props) {
           githubRepo="https://github.com/tolentinoel/footballFanatic"
         />
 
-      </span>
+      </div>
 
     </div>
   )

@@ -1,7 +1,9 @@
 .expDiv{
     padding: 7rem 2rem;
+    margin-top: 7em;
     font-family: 'Advent Pro', sans-serif;
     height: 100vh;
+    font-size: larger;
 }
 
 .expHeader{
@@ -27,6 +29,7 @@
 #expInfo{
     padding-left: 6%;
     padding-right: 6%;
+    margin-top: 5%;
     text-align: initial;
     font-size: 1.2em;
 }
@@ -50,4 +53,33 @@
 
 }
 
+
+@media (max-width: 768px){
+
+    #experience{
+        height:120vh
+    }
+  
+    #companyPills{
+        font-size: larger;
+    }
+  
+    .expInfoHeader{
+        font-size: larger;
+    }
+
+    #expInfoText{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #tab-content{
+        width: 81vw;
+    }
+
+
+    #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {
+        padding: 0.15rem 0rem;
+    }
+  }
 
