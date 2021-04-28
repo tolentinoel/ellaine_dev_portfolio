@@ -8,6 +8,9 @@ import Projects from './Projects.js';
 import About from './About.js';
 import Experience from './Experience.js';
 import Button from 'react-bootstrap/Button';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAt} from '@fortawesome/free-solid-svg-icons';
+import {faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   return (
@@ -37,10 +40,10 @@ function App() {
 
         <div className="landing">
 
-          <div id="soloDiv">
+          <div id="summaryDiv">
 
             <h1 className="summary"><strong>I am a builder, a designer, & a developer with a keen eye for design in all forms.</strong> </h1>
-            <h3 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design.</h3>
+            <h3 className="summary">I am a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design. I am currently doing a freelance project to further practice my knowledge from my recent schooling.</h3>
 
             <a href="mailto:tolentino.el@gmail.com">
               <Button variant="outline-light" id="contactButton">
@@ -64,11 +67,15 @@ function App() {
 
         <div id= "projects">
           <Projects/>
+      
         </div>
-
         <div id= "contact">
-          <h2>LET'S TALK?</h2>
-
+          <h1>Contact Me:</h1>
+          <a href="mailto:tolentino.el@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faAt} size="2x" color="darkturquoise"/></a>
+          <a href="https://twitter.com/tolentinoEL" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faTwitter} size="2x" color="darkturquoise"/></a>
+          <a href="https://dev.to/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faDev} size="2x" color="darkturquoise"/></a>
+          <a href="https://www.linkedin.com/in/ellainet/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2x" color="darkturquoise"/></a>
+          <a href="https://github.com/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" color="darkturquoise"/></a>
         </div>
 
         <a href="#top"><img src={logo} className="logo" alt="Logo" /></a>

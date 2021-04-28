@@ -38,7 +38,7 @@ class Experience extends React.Component{
             </Col>
 
             <Col lg={8} id="expInfoText">
-              <Tab.Content>
+              <Tab.Content id="tab-content">
                 <Tab.Pane eventKey="first">
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
                   <ListGroup variant="flush" >
