@@ -17,7 +17,9 @@ function About(props) {
             <br/>
             Fast-forward to today, and now I am a coding bootcamp graduate with a degree in Interior Design. I consider myself as a full-stack dev but Front-end Development is my favorite! I am looking forward in producing creative and interesting products/projects that will serve as a great contribution to the community. I am also trying to learn more of data structures and practice alot more algorithms!
             <br/>
+            <br/>
             Here is my tech stack as of the moment:
+            <br/>
             <br/>
             <div id ="techBadges">
 
