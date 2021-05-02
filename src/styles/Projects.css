@@ -17,13 +17,14 @@
 }
 
 .projectSubDiv{
+    margin-top: 2em;
     display: inline-flex;
 }
 
 .project{
     display: inline-block;
     padding-bottom: 20px;
-    padding: 0px 10px 0px 15px;
+    padding: 0px 15px 0px 15px;
 }
 .projectTitle, .projectInfo {
     color:white;
@@ -49,9 +50,8 @@
 
     .projectSubDiv{
         display: grid;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 2px;
-        /* padding: 5px 25px; */
         text-align: center;
     }
 
