@@ -69,10 +69,10 @@
     }
 
     #companyPills{
-        font-variant: petite-caps;
-    line-height: 15px;
-    font-weight: 700;
-    margin-bottom: 2rem;
+        font-size: larger;
+        width: 95%;
+        margin: auto;
+        text-align: center;
     }
 
 }

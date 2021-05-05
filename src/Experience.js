@@ -16,7 +16,7 @@ class Experience extends React.Component{
 
         <div id="expInfo">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-          <Row>
+          <Row id="expRows">
             <Col sm={3.5} id="companyPills">
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>

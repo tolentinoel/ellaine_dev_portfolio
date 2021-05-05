@@ -27,9 +27,9 @@
 
 
 #expInfo{
-    width: 88vw;
+    width: 85vw;
     margin: 5% 5% 5% 7%;
-    text-align: initial;
+    text-align: initial;    
     font-size: 25px;
 }
 
@@ -56,11 +56,20 @@
 @media (max-width: 768px){
 
     #experience{
-        height:100vh;
+        height: 110vh;;
     }
   
     #companyPills{
         font-size: larger;
+    }
+
+    #expRows{
+        gap: 16px;
+    }
+
+    #expInfo{
+        width:100%;
+        margin: 0;
     }
   
     .expInfoHeader{
