@@ -56,7 +56,7 @@
     }
 
     #projects{
-        height:120vh;
+        height:max-content;
     }
 
     #pic{
