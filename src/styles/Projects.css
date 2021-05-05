@@ -1,5 +1,5 @@
 #projects{
-    height: 90vh;
+    height: 75vh;
 }
 
 .projectDiv{
@@ -50,7 +50,7 @@
 
     .projectSubDiv{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
         gap: 2px;
         text-align: center;
     }

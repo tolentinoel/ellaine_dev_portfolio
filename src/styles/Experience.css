@@ -27,19 +27,18 @@
 
 
 #expInfo{
-    padding-left: 6%;
-    padding-right: 6%;
-    margin-top: 5%;
+    width: 88vw;
+    margin: 5% 5% 5% 7%;
     text-align: initial;
-    font-size: 1.2em;
+    font-size: 25px;
 }
 
 #companyPills{
     padding-top:0rem;
 }
-#expInfoText{
-    padding-top:1rem;
-}
+/* #expInfoText{
+   
+} */
 
 
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {

@@ -9,7 +9,7 @@ import About from './About.js';
 import Experience from './Experience.js';
 import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Popover from 'react-bootstrap/Popover'
+import Popover from 'react-bootstrap/Popover';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt} from '@fortawesome/free-solid-svg-icons';
 import {faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
@@ -18,17 +18,16 @@ function App() {
 
   const popover = (
     <Popover id="popover-basic">
-      <Popover.Title as="h3">Popover right</Popover.Title>
+      <Popover.Title as="h3">Oh hey!</Popover.Title>
       <Popover.Content>
-        And here's some <strong>amazing</strong> content. It's very engaging.
-        right?
+        Want to follow my journey? Follow my Instagram! <a href="https://www.instagram.com/tolentinoel/?hl=en" target="_blank" rel="noreferrer"><strong>@tolentinoel</strong></a>
       </Popover.Content>
     </Popover>
   );
   
   const Example = () => (
-    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-      <Button variant="success">Click Me!</Button>
+    <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+      <Button variant="outline-dark" id="footText" >Built & Designed by Ellaine Tolentino</Button>
     </OverlayTrigger>
   );
 
@@ -90,7 +89,7 @@ function App() {
 
         </div>
         <div id= "contact">
-        <Example/>
+
           <h1>Contact Me:</h1>
     
           <a href="mailto:tolentino.el@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faAt} size="2x" color="darkturquoise" className="icon"/></a>
@@ -103,7 +102,7 @@ function App() {
         <a href="#top"><img src={logo} className="logo" alt="Logo" /></a>
 
         <div id="footer">
-          <p id="footText" >Built & Designed by Ellaine Tolentino</p>
+          <Example/>
         </div>
 
       </div>
