@@ -101,7 +101,7 @@ html{
 
 #contact{
   font-family: 'Luckiest Guy', cursive;
-  height: 35vh;
+  height: 20vh;
 }
 
 #contact svg{
@@ -137,26 +137,13 @@ html{
   font-family: 'Advent Pro', sans-serif;
   font-variant: petite-caps;
   color: darkturquoise;
+  padding: 1px;
+  border-color:black;
+  border-bottom: dotted;
+  border-bottom-width: 1px;
+  border-bottom-color:#494d55;
 }
 
-/* 
-#footer .tooltiptext {
-  visibility: hidden;
-  width: 35%;
-  background-color: rgb(217, 236, 38);
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
- display: flex;
-  margin-left: -60px;
-  z-index: 1;
-}
-
-#footer:hover .tooltiptext {
-  visibility: visible;
-} */
 
 
 .logo{
@@ -176,10 +163,14 @@ html{
 
 
 
+
+
+
+
 @media (max-width: 768px){
 
   .landing {
-      height:90vh
+      height:170vh;
   }
 
   .App{
