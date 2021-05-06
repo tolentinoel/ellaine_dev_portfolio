@@ -56,11 +56,14 @@
 @media (max-width: 768px){
 
     #experience{
-        height: 110vh;;
+        height: 130vh;
+        text-align: center;
     }
   
     #companyPills{
-        font-size: larger;
+        font-size: 1em;
+        font-weight: bolder;
+        line-height: initial;
     }
 
     #expRows{
@@ -77,8 +80,8 @@
     }
 
     #expInfoText{
-        padding-left: 0px;
-        padding-right: 0px;
+        text-align: center;
+        margin: auto;
     }
 
     #tab-content{
