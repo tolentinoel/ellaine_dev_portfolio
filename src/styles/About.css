@@ -45,10 +45,12 @@
 }
 
 #techBadges img{
-    display: inline-grid;
-    text-align: -webkit-center;
-    gap: 10px 21px;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    grid-gap: 8px;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 
