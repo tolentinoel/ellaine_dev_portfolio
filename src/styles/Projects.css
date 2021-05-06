@@ -3,17 +3,23 @@
 }
 
 .projectDiv{
-    padding: 7rem 1rem;
+    padding: 4rem 8rem;
     font-family: 'Advent Pro', sans-serif;
 
 }
 
 .projectHeader{
+    margin-left: 1em;
+    width: 38vw;
     font-family: 'Luckiest Guy', cursive;
+    padding-left: 0.5rem;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #caf002;
     letter-spacing: 2px;
     font-size: 2.5rem;
     text-align: initial;
-    padding-left: 2.5rem;
 }
 
 .projectSubDiv{
@@ -55,9 +61,14 @@
     }
 
     .projectHeader{
-        font-size: 3.1rem;
-        text-align: left;
+        margin:0;
         text-align: center;
+        font-size: 3.1rem;
+        display: initial;
+    }
+
+    .projectDiv{
+        padding: 5rem 0rem;
     }
 
     #projects{

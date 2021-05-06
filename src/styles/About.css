@@ -11,12 +11,18 @@
 }
 
 .aboutLabel{
+    margin-left: 5em;
+    width: 38vw;
     font-family: 'Luckiest Guy', cursive;
-    padding-left: 2.5rem;
-
+    padding-left: 0.5rem;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #caf002;
 }
 
 .aboutTextDiv{
+    margin: 2em 9em 1em 8em;
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 2px;
@@ -45,12 +51,14 @@
 }
 
 #techBadges img{
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-    grid-gap: 8px;
-    margin: auto;
-    flex-wrap: wrap;
+    margin:auto;
+}
+
+#techBadges{
+    display: inline-grid;
+    width: 35vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7px;
 }
 
 
@@ -67,6 +75,14 @@
 
 .aboutTextDiv{
     display:block;
+    margin: 4px;
+}
+.aboutLabel{
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69vw;
 }
 
 .aboutText{
@@ -80,15 +96,12 @@
 }
 
 #techBadges{
+    width: 100%;
     display: inline-grid;
     text-align: -webkit-center;
     gap: 10px 21px;
     grid-template-columns: 1fr 1fr ;
 }
 
-.expInfoText{
-    padding-top: 2rem;
-    line-height: 23px;
-}
 
 }

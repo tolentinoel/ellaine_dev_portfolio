@@ -7,6 +7,7 @@ import makegotchi from './images/makegotchi_thumb.png';
 import football from './images/FF_thumb.png';
 
 function Projects(props) {
+  
   return (
 
     <div className="projectDiv">
@@ -24,6 +25,7 @@ function Projects(props) {
           image={makegotchi}
           title="Makegotchi"
           githubRepo="https://github.com/nnhk23/makegotchi-frontend"
+       
         />
 
           <Thumbnail

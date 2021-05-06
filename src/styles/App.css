@@ -10,7 +10,7 @@ html{
   text-align: center;
   color: white;
   background-color: #282c34;
-  /* overflow-y: scroll; */
+
 }
 
 .App {
@@ -32,10 +32,11 @@ html{
 
 
 #navigation {
-  background: linear-gradient(#1b2719, #343a408a);
+  background: linear-gradient(#000000, #1a2132cf);
   z-index: 1;
   width: 100vw;
-
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 23px;
 }
 
 
@@ -72,6 +73,9 @@ html{
   padding: 3% 3%;
 }
 
+#h1Landing{
+  color: #caf000;
+}
 
 #name2{
   font-size: 115px;
@@ -97,6 +101,13 @@ html{
 
 #contactButton{
   margin-top: 20px;
+  border-color: #caf000;
+}
+
+#contactButton2{
+  margin-top: 20px;
+  margin-left: 8px;
+  border-color: #caf000;
 }
 
 #contact{
@@ -106,7 +117,7 @@ html{
 
 #contact svg{
   margin: 8px;
- 
+  color: #caf000;
 }
 
 .icon {
@@ -136,7 +147,7 @@ html{
 #footText{
   font-family: 'Advent Pro', sans-serif;
   font-variant: petite-caps;
-  color: darkturquoise;
+  color: #caf000;
   padding: 1px;
   border-color:black;
   border-bottom: dotted;
@@ -170,7 +181,7 @@ html{
 @media (max-width: 768px){
 
   .landing {
-      height:70vh;
+      height:max-content;
   }
 
   .App{
