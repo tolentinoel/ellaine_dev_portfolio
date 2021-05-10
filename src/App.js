@@ -1,10 +1,11 @@
 import logo from './images/Logo3.png';
 
 import './styles/App.css';
-import { BrowserRouter} from 'react-router-dom';
+
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Projects from './Projects.js';
+import Blog from './Blog.js';
 import About from './About.js';
 import Experience from './Experience.js';
 import Button from 'react-bootstrap/Button';
@@ -16,6 +17,8 @@ import {faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-s
 
 function App() {
 
+
+
   const popover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">Oh hey!</Popover.Title>
@@ -24,16 +27,18 @@ function App() {
       </Popover.Content>
     </Popover>
   );
-  
-  const Example = () => (
+
+  const Badges = () => (
     <OverlayTrigger trigger="click" placement="top" overlay={popover}>
       <Button variant="outline-dark" id="footText" >Built & Designed by Ellaine Tolentino</Button>
     </OverlayTrigger>
   );
 
 
+
+
   return (
-    <BrowserRouter>
+    <div>
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
       <Navbar variant="dark" collapseOnSelect expand="lg" fixed="top" id="navigation">
@@ -53,8 +58,7 @@ function App() {
       <div className="App">
 
         <div className="headerDiv">
-          <h1 className="lHeader" id="mabuhay">Mabuhay! My name is <h1 className="lHeader" id="name2"> Ellaine.</h1></h1>
-
+          <h1 className="lHeader" id="mabuhay">Mabuhay! My name is <p className="lHeader" id="name2"> Ellaine.</p></h1>
         </div>
 
         <div className="landing">
@@ -63,13 +67,11 @@ function App() {
 
             <h1 className="summary" id="h1Landing"><strong>I am a builder, a designer, & a developer with a keen eye for design in all forms.</strong> </h1>
             <h3 className="summary">I'm a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design. I am currently doing a freelance project to further practice my knowledge from my recent schooling.</h3>
-
             <a href="mailto:tolentino.el@gmail.com">
               <Button variant="outline-light" id="contactButton">
                 Keep in touch!
               </Button>
             </a>
-
             <a href="#about">
               <Button variant="outline-light" id="contactButton2">
                 More about me
@@ -79,8 +81,6 @@ function App() {
           </div>
 
         </div>
-
-
 
         <div id="about">
           <About/>
@@ -94,10 +94,13 @@ function App() {
           <Projects/>
 
         </div>
-        <div id= "contact">
 
+        <div id="blog">
+          <Blog/>
+        </div>
+
+        <div id= "contact">
           <h1>Contact Me:</h1>
-    
           <a href="mailto:tolentino.el@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faAt} size="2x" color="#caf000;" className="icon"/></a>
           <a href="https://twitter.com/tolentinoEL" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faTwitter} size="2x" color="#caf000;" className="icon"/></a>
           <a href="https://dev.to/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faDev} size="2x" color="#caf000;" className="icon"/></a>
@@ -108,12 +111,14 @@ function App() {
         <a href="#top"><img src={logo} className="logo" alt="Logo" /></a>
 
         <div id="footer">
-          <Example/>
+          <Badges/>
         </div>
 
-      </div>
+        </div>
+    </div>
 
-    </BrowserRouter>
+
+
   );
 }
 

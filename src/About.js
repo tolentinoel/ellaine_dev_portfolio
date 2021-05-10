@@ -2,8 +2,10 @@ import React from "react";
 import './styles/About.css';
 import solo from './images/solo2.png';
 
-function About(props) {
+export default class About extends React.Component{
 
+
+render(){
   return (
     <section className="aboutDiv">
       <h1 className="aboutLabel">About Me:</h1>
@@ -42,6 +44,7 @@ function About(props) {
 
     </section>
   )
-}
 
-export default About;
+
+}
+}
