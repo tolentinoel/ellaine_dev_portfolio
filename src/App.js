@@ -1,7 +1,6 @@
+import React from 'react';
 import logo from './images/Logo3.png';
-
 import './styles/App.css';
-
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Projects from './Projects.js';
@@ -15,11 +14,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt} from '@fortawesome/free-solid-svg-icons';
 import {faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
-function App() {
+class App extends React.Component {
 
 
-
-  const popover = (
+  popover = (
     <Popover id="popover-basic">
       <Popover.Title as="h3">Oh hey!</Popover.Title>
       <Popover.Content>
@@ -28,15 +26,13 @@ function App() {
     </Popover>
   );
 
-  const Badges = () => (
-    <OverlayTrigger trigger="click" placement="top" overlay={popover}>
+ Badges = () => (
+    <OverlayTrigger trigger="click" placement="top" overlay={this.popover}>
       <Button variant="outline-dark" id="footText" >Built & Designed by Ellaine Tolentino</Button>
     </OverlayTrigger>
   );
-
-
-
-
+  
+  render(){
   return (
     <div>
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -111,7 +107,7 @@ function App() {
         <a href="#top"><img src={logo} className="logo" alt="Logo" /></a>
 
         <div id="footer">
-          <Badges/>
+          {this.Badges()}
         </div>
 
         </div>
@@ -120,7 +116,11 @@ function App() {
 
 
   );
+
+  }
+  
 }
+
 
 export default App;
 
