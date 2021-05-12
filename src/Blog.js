@@ -33,7 +33,7 @@ class Blog extends Component {
                     return (
                     <Card className="blogCard" border="outline-info" bg="dark">
                         <Card.Img variant="top" src={content.cover_image} />
-                        <Card.Header><h4>{content.title}</h4></Card.Header>
+                        <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h4>{content.title}</h4></a></Card.Header>
                         <Card.Body >
                             <Card.Text className="blogBody">
                             <Card.Subtitle className="mb-1 text-muted">{content.tags.replaceAll(','," ")}</Card.Subtitle>
@@ -45,6 +45,7 @@ class Blog extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+
                     )
                 })
                 }
