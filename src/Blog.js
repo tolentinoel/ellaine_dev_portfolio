@@ -36,11 +36,12 @@ class Blog extends Component {
                         <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h4>{content.title}</h4></a></Card.Header>
                         <Card.Body >
                             <Card.Text className="blogBody">
-                            <Card.Subtitle className="mb-1 text-muted">{content.tags.replaceAll(','," ")}</Card.Subtitle>
-
-                            {/* {content.tag_list.map(tag => {
+                            {/* <Card.Subtitle className="mb-1 text-muted">{content.tags.replaceAll(','," ")}</Card.Subtitle> */}
+                            <div className="subtitle">
+                            {content.tag_list.map(tag => {
                                 return <Card.Subtitle className="mb-1 text-muted">#{tag}</Card.Subtitle>
-                            })} */}
+                            })}
+                            </div>
                                 {content.description}
                             </Card.Text>
                         </Card.Body>
