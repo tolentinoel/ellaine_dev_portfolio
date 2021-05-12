@@ -1,0 +1,21 @@
+.blogCard{
+    width: 20rem;
+    padding: 0.1em;
+
+
+}
+
+.blogBody {
+    display: grid!important;
+}
+
+.card-body{
+    padding:0.5rem 0.7rem 1rem 0.7rem!important;
+}
+
+.mb-1{
+    font-size: 14px!important;
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    
+}
