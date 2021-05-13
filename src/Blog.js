@@ -26,14 +26,14 @@ class Blog extends Component {
     render(){
         // console.log(this.state.blogs)
         return (
-
+            <>
+            <h1 className="blogsHeader">Blogs</h1>
             <div className="blog">
-
                 {this.state.blogs.map(content => {
                     return (
                     <Card className="blogCard" border="outline-info" bg="dark">
                         <Card.Img variant="top" src={content.cover_image} />
-                        <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h4>{content.title}</h4></a></Card.Header>
+                        <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h5>{content.title}</h5></a></Card.Header>
                         <Card.Body >
                             <Card.Text className="blogBody">
                             {/* <Card.Subtitle className="mb-1 text-muted">{content.tags.replaceAll(','," ")}</Card.Subtitle> */}
@@ -52,6 +52,7 @@ class Blog extends Component {
                 }
 
             </div>
+            </>
             )
         }
 

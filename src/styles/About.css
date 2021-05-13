@@ -1,6 +1,6 @@
 #about{
     height: 90vh;
-   
+
 }
 
 .aboutDiv{
@@ -66,7 +66,7 @@
 
 #about {
     padding: 5em 0px;
-    height: 150vh;
+    height: min-content;
 }
 
 .aboutDiv{
@@ -105,3 +105,49 @@
 
 
 }
+
+@media (max-width: 375px){
+
+    #about {
+        padding: 6em 0em 0em 0em;
+        height: min-content;
+    }
+
+    .aboutDiv{
+        padding-top: 0;
+    }
+
+    .aboutTextDiv{
+        display:block;
+        margin: 4px;
+    }
+    .aboutLabel{
+        text-align: center;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 69vw;
+    }
+
+    .aboutText{
+        font-size: 20px;
+        padding: 1rem .1rem;
+    }
+
+    .soloPhoto{
+        width: 16rem;
+        height: 16rem;
+    }
+
+    #techBadges{
+        width: 100%;
+        display: inline-grid;
+        text-align: -webkit-center;
+        gap: 10px 21px;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+
+    }
+
+

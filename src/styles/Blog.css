@@ -1,24 +1,39 @@
 .blog{
-    width: 95vw;
+    width: 90vw;
+    margin-bottom: 2em;
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
+    justify-content: center;
+    height: min-content;
 }
 
+.blogsHeader{
+    margin-left: 3em;
+    margin-bottom: 1em;
+    width: 38vw;
+    font-family: 'Luckiest Guy', cursive;
+    padding-left: 0.5rem;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #caf002;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    text-align: initial;
+}
 
 
 .blogCard{
-    width: 16rem;
+    width: 18rem;
     padding: 0.2em;
-    margin: 4px 3px;
-  
+    margin: 10px 8px;
 }
 
-.blogCard:hover{
+.blogCard:hover, .blogCard:focus{
     transform: scale(1.05);
     transition: all .25s;
     cursor: nw-resize;
+    box-shadow: 1px 1px 6px 4px rgb(32 201 178 / 71%);
 }
 
 .blogCard a{
@@ -31,9 +46,7 @@
     text-decoration: none;
 }
 
-.blogBody {
-    /* display: grid!important; */
-}
+
 
 .card-body{
     padding:0.5rem 0.7rem 1rem 0.7rem!important;
@@ -44,10 +57,34 @@
     display: flex;
     flex-direction: row;
     width: min-content;
+    margin:auto;
+
 }
+
+
 .mb-1{
+    margin: auto .2rem .2rem auto!important;
     font-size: 14px!important;
-    /* display: inline-grid; */
-    /* grid-template-rows: 1fr; */
-    
+
+
 }
+
+@media (max-width: 768px){
+
+    .blog{
+        width: 100vw;
+        height: max-content;
+        margin-bottom: 70px;
+    }
+
+    .blogsHeader{
+        margin: auto auto 20px auto;
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    .blogCard a{
+        font-variant: petite-caps;
+    }
+}
+
