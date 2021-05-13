@@ -45,7 +45,8 @@ class App extends React.Component {
             <Nav.Link href="#about" id="tab1">About</Nav.Link>
             <Nav.Link href="#experience" id="tab2">Experience</Nav.Link>
             <Nav.Link href="#projects" id="tab3">Projects</Nav.Link>
-            <Nav.Link href="#contact" id="tab4">Contact</Nav.Link>
+            <Nav.Link href="#blog" id="tab4">Blogs</Nav.Link>
+            <Nav.Link href="#contact" id="tab5">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

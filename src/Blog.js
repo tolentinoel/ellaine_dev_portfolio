@@ -17,8 +17,8 @@ class Blog extends Component {
         fetch('https://dev.to/api/articles?username=tolentinoel')
         .then(res => res.json())
         .then(data => {
-            // debugger
             this.setState({ blogs: data })
+            // debugger
         })
     }
 
@@ -27,9 +27,10 @@ class Blog extends Component {
         // console.log(this.state.blogs)
         return (
             <>
-            <h1 className="blogsHeader">Blogs</h1>
+            <h1 className="blogsHeader" id="blogfeed">Blogs</h1>
+            <p className="blogP">I do also maintain a blog! Here are my few recent ones!</p>
             <div className="blog">
-                {this.state.blogs.map(content => {
+                {this.state.blogs.slice(0,4).map(content => {
                     return (
                     <Card className="blogCard" border="outline-info" bg="dark">
                         <Card.Img variant="top" src={content.cover_image} />

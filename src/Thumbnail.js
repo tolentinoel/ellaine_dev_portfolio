@@ -16,7 +16,9 @@ function Thumbnail(props) {
               <a className="projectInfo" href={props.link} target= "_blank" alt="website for app" rel="noreferrer"> {props.title}</a> | 
               <a className="projectInfo" href={props.githubRepo} target= "_blank" alt="website for repo" rel="noreferrer"> Github</a>
             </h4>
-            <div><p>{props.techStack}</p></div>
+            <div>
+              <p>{props.techStack}</p>
+            </div>
         </span>
 
       </div>
