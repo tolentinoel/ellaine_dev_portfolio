@@ -18,6 +18,7 @@ function Projects(props) {
           image={flip}
           title="Flip!"
           githubRepo="https://github.com/tolentinoel/flip"
+          techStacks = {["ruby", "javaScript", "HTML", "CSS"]}
         />
 
           <Thumbnail

@@ -41,15 +41,29 @@
 }
 
 #info{
-    margin: 10px auto 10px auto;
+    margin: 15px auto 10px auto;
+}
+
+#info a:hover{
+    color: rgb(32 201 178);
+    text-decoration: none;
+    font-weight: 800;
+    transition: all .25s;
 }
 
 
 #pic{
-    border-radius: 20em;
+    border-radius: 50%;
     width: 15em;
-    padding-bottom: 7px;
-    padding-top: 15px;
+    /* padding-bottom: 7px;
+    padding-top: 15px; */
+}
+
+#pic:hover, #pic:focus{
+    transform: scale(1.05);
+    transition: all .25s;
+    cursor: nw-resize;
+    box-shadow: 1px 1px 6px 4px rgb(32 201 178 / 71%);
 }
 
 @media (max-width: 768px){

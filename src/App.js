@@ -28,7 +28,7 @@ class App extends React.Component {
 
  Badges = () => (
     <OverlayTrigger trigger="click" placement="top" overlay={this.popover}>
-      <Button variant="outline-dark" id="footText" >Built & Designed by Ellaine Tolentino</Button>
+      <Button variant="outline-dark" id="footText">Built & Designed by Ellaine Tolentino</Button>
     </OverlayTrigger>
   );
   
@@ -59,24 +59,16 @@ class App extends React.Component {
         </div>
 
         <div className="landing">
-
           <div id="summaryDiv">
-
             <h1 className="summary" id="h1Landing"><strong>I am a builder, a designer, & a developer with a keen eye for design in all forms.</strong> </h1>
             <h3 className="summary">I'm a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design. I am currently doing a freelance project to further practice my knowledge from my recent schooling.</h3>
             <a href="mailto:tolentino.el@gmail.com">
-              <Button variant="outline-light" id="contactButton">
-                Keep in touch!
-              </Button>
+              <Button variant="outline-light" id="contactButton">Keep in touch!</Button>
             </a>
             <a href="#about">
-              <Button variant="outline-light" id="contactButton2">
-                More about me
-              </Button>
+              <Button variant="outline-light" id="contactButton2">More about me</Button>
             </a>
-
           </div>
-
         </div>
 
         <div id="about">
@@ -89,7 +81,6 @@ class App extends React.Component {
 
         <div id= "projects">
           <Projects/>
-
         </div>
 
         <div id="blog">
@@ -105,7 +96,7 @@ class App extends React.Component {
           <a href="https://github.com/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faGithub} size="2x" color="#caf000;" className="icon"/></a>
         </div>
 
-        <a href="#top"><img src={logo} className="logo" alt="Logo" /></a>
+        <span><a href="#top"><img src={logo} className="logo" alt="Logo" /></a></span>
 
         <div id="footer">
           {this.Badges()}
