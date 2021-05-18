@@ -18,6 +18,7 @@ function Projects(props) {
           image={flip}
           title="Flip!"
           githubRepo="https://github.com/tolentinoel/flip"
+          techStacks = {["html", "css", "ruby", "javaScript", "github"]}
         />
 
           <Thumbnail
@@ -25,7 +26,7 @@ function Projects(props) {
           image={makegotchi}
           title="Makegotchi"
           githubRepo="https://github.com/nnhk23/makegotchi-frontend"
-       
+          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react" ]}
         />
 
           <Thumbnail
@@ -33,6 +34,7 @@ function Projects(props) {
           image={splash}
           title="SplashGlam"
           githubRepo="https://github.com/tolentinoel/splashglam_frontend"
+          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react" ]}
         />
 
           <Thumbnail
@@ -40,6 +42,7 @@ function Projects(props) {
           image={football}
           title="FootballFanatic"
           githubRepo="https://github.com/tolentinoel/footballFanatic"
+          techStacks = {["html", "css", "ruby", "javaScript", "cli" ]}
         />
 
       </div>
