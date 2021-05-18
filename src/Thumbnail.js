@@ -28,12 +28,29 @@ class Thumbnail extends React.Component {
           return (
             <img src="https://img.shields.io/badge/-javascript-yellow?logo=javascript&logoColor=white&style=flat" alt={lang}/>
             )
+        case 'bootstrap':
+          return (
+            <img src="https://img.shields.io/badge/-bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'heroku':
+          return (
+            <img src="https://img.shields.io/badge/-heroku-430098?logo=heroku&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'netlify':
+          return (
+            <img src="https://img.shields.io/badge/-netlify-00C7B7?logo=netlify&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'postgresql':
+          return (
+            <img src="https://img.shields.io/badge/-postgresql-336791?logo=postgresql&logoColor=white&style=flat" alt={lang}/>
+            )
+
         default:
           return (
             <p>{lang}</p>
             )
       }
-      
+
     });
 
   }
