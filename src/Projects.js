@@ -19,7 +19,8 @@ function Projects(props) {
           image={dev}
           title="Portfolio"
           githubRepo="https://github.com/tolentinoel/ellaine_dev_portfolio"
-          techStacks = {["html", "css", "ruby", "react", "bootstrap"]}
+          techStacks = {["html", "css", "ruby", "react", "bootstrap", "fontawesome"]}
+          info="My portfolio website hosted at 'ellaine.dev/'. It contains few recent articles, projects and links to my social media accounts."
         />
 
 
@@ -28,7 +29,8 @@ function Projects(props) {
           image={flip}
           title="Flip!"
           githubRepo="https://github.com/tolentinoel/flip"
-          techStacks = {["html", "css", "ruby", "javaScript", "github", "bootstrap"]}
+          techStacks = {["html", "css", "ruby", "sqlite", "javaScript", "github", "bootstrap"]}
+          info="A classic memory game application with a twist! Contains 3 difficulty levels and 3 themes to choose from. Deployed through Github pages."
         />
 
           <Thumbnail
@@ -36,7 +38,8 @@ function Projects(props) {
           image={makegotchi}
           title="Makegotchi"
           githubRepo="https://github.com/nnhk23/makegotchi-frontend"
-          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react", "reactRouter", "bootstrap" ]}
+          techStacks = {["html", "css", "ruby", "postgresql", "javaScript", "heroku", "react", "reactRouter", "bootstrap" ]}
+          info= "A React, one-player, virtual pet game that enables the user to adopt from a selection of Tamagotchis (virtual pet) and interact with them by feeding, cleaning, tucking them into bed. A collaboration project with 3 other software developers from Flatiron School."
         />
 
           <Thumbnail
@@ -44,7 +47,8 @@ function Projects(props) {
           image={splash}
           title="SplashGlam"
           githubRepo="https://github.com/tolentinoel/splashglam_frontend"
-          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react", "bootstrap" ]}
+          techStacks = {["html", "css", "ruby", "postgresql", "javaScript", "heroku", "react", "bootstrap" ]}
+          info = "A React-powered, e-commerce skincare app using Soko Glam product data. The app also has a bookmarking & theme toggling feature for the users."
         />
 
           <Thumbnail
@@ -52,7 +56,9 @@ function Projects(props) {
           image={football}
           title="FootballFanatic"
           githubRepo="https://github.com/tolentinoel/footballFanatic"
-          techStacks = {["html", "css", "ruby", "javaScript", "cli", "ticketMaster" ]}
+          techStacks = {["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]}
+          info="A CLI app that displays events or football games that can be found through city name, date, team/performer
+          name or stadium name using the TicketMaster API. "
         />
         </div>
       
