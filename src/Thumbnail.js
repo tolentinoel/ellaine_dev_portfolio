@@ -4,9 +4,37 @@ import './styles/Projects.css';
 
 class Thumbnail extends React.Component {
 
-  stacks = (tech)=> {
-
-    console.log(tech)
+  stacks = (tech) => {
+    // let react = "https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat"
+    return tech.map(lang => {
+      switch (lang){
+        case 'react':
+          return (
+          <img src="https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat" alt={lang}/>
+          )
+        case 'ruby' :
+          return (
+            <img src="https://img.shields.io/badge/-ruby-red?logo=ruby&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'html' :
+          return (
+            <img src="https://img.shields.io/badge/-html5-E34F26?logo=html5&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'css' :
+          return (
+            <img src="https://img.shields.io/badge/-css3-1572B6?logo=css3&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'javaScript':
+          return (
+            <img src="https://img.shields.io/badge/-javascript-yellow?logo=javascript&logoColor=white&style=flat" alt={lang}/>
+            )
+        default:
+          return (
+            <p>{lang}</p>
+            )
+      }
+      
+    });
 
   }
 
@@ -27,7 +55,7 @@ class Thumbnail extends React.Component {
               </h4>
               <span>
                 {this.stacks(this.props.techStacks)}
-                {this.props.techStacks}
+                {/* {this.props.techStacks} */}
               </span>
           </span>
 

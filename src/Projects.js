@@ -26,7 +26,7 @@ function Projects(props) {
           image={makegotchi}
           title="Makegotchi"
           githubRepo="https://github.com/nnhk23/makegotchi-frontend"
-       
+          techStacks = {["ruby", "javaScript", "HTML", "CSS"]}
         />
 
           <Thumbnail
@@ -34,6 +34,7 @@ function Projects(props) {
           image={splash}
           title="SplashGlam"
           githubRepo="https://github.com/tolentinoel/splashglam_frontend"
+          techStacks = {["ruby", "javaScript", "HTML", "CSS"]}
         />
 
           <Thumbnail
@@ -41,6 +42,7 @@ function Projects(props) {
           image={football}
           title="FootballFanatic"
           githubRepo="https://github.com/tolentinoel/footballFanatic"
+          techStacks = {["ruby", "javaScript", "HTML", "CSS"]}
         />
 
       </div>
