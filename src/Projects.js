@@ -42,7 +42,7 @@ function Projects(props) {
           image={football}
           title="FootballFanatic"
           githubRepo="https://github.com/tolentinoel/footballFanatic"
-          techStacks = {["html", "css", "ruby", "javaScript", ]}
+          techStacks = {["html", "css", "ruby", "javaScript", "cli" ]}
         />
 
       </div>
