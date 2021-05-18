@@ -1,11 +1,10 @@
 #projects{
-    height: 75vh;
+    height: min-content;
 }
 
 .projectDiv{
-    padding: 4rem 8rem;
+    padding: 5rem 6rem;
     font-family: 'Advent Pro', sans-serif;
-
 }
 
 .projectHeader{
@@ -24,7 +23,11 @@
 
 .projectSubDiv{
     margin-top: 2em;
-    display: inline-flex;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-direction: row;
 }
 
 .project{
@@ -38,6 +41,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     /* font-size: 20px; */
+}
+
+.projectTitle img{
+    margin: 3px;
 }
 
 #info{
@@ -54,7 +61,7 @@
 
 #pic{
     border-radius: 50%;
-    width: 15em;
+    width: 13em;
     /* padding-bottom: 7px;
     padding-top: 15px; */
 }

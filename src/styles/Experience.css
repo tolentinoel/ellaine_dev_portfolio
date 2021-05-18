@@ -2,7 +2,7 @@
     padding: 10rem 5rem 2rem 5rem;
     margin-top: 7em;
     font-family: 'Advent Pro', sans-serif;
-    height: 100vh;
+    height: min-content;
     font-size: larger;
 }
 
@@ -14,8 +14,6 @@
     padding-left: 5%;
     padding-left: 0.5rem;
     margin-left: 2em;
-    /* border-bottom: solid; */
-    /* border-top: solid; */
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-bottom-style: dotted;
@@ -31,9 +29,7 @@
 
 .expInfoHeader{
     font-family: 'Luckiest Guy', cursive;
-
 }
-
 
 #expInfo{
     width: 85vw;

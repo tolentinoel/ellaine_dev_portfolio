@@ -5,6 +5,7 @@ import flip from './images/flip_thumb.png';
 import splash from './images/splashGlam_thumb.png';
 import makegotchi from './images/makegotchi_thumb.png';
 import football from './images/FF_thumb.png';
+import dev from './images/devlogo2.png';
 
 function Projects(props) {
   
@@ -14,11 +15,20 @@ function Projects(props) {
       <h1 className="projectHeader">Projects</h1>
       <div className="projectSubDiv">
         <Thumbnail
+          link="http://ellaine.dev/"
+          image={dev}
+          title="Portfolio"
+          githubRepo="https://github.com/tolentinoel/ellaine_dev_portfolio"
+          techStacks = {["html", "css", "ruby", "react", "bootstrap"]}
+        />
+
+
+        <Thumbnail
           link="https://tolentinoel.github.io/flip"
           image={flip}
           title="Flip!"
           githubRepo="https://github.com/tolentinoel/flip"
-          techStacks = {["html", "css", "ruby", "javaScript", "github"]}
+          techStacks = {["html", "css", "ruby", "javaScript", "github", "bootstrap"]}
         />
 
           <Thumbnail
@@ -26,7 +36,7 @@ function Projects(props) {
           image={makegotchi}
           title="Makegotchi"
           githubRepo="https://github.com/nnhk23/makegotchi-frontend"
-          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react" ]}
+          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react", "reactRouter", "bootstrap" ]}
         />
 
           <Thumbnail
@@ -34,7 +44,7 @@ function Projects(props) {
           image={splash}
           title="SplashGlam"
           githubRepo="https://github.com/tolentinoel/splashglam_frontend"
-          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react" ]}
+          techStacks = {["html", "css", "ruby", "javaScript", "heroku", "react", "bootstrap" ]}
         />
 
           <Thumbnail
@@ -42,10 +52,10 @@ function Projects(props) {
           image={football}
           title="FootballFanatic"
           githubRepo="https://github.com/tolentinoel/footballFanatic"
-          techStacks = {["html", "css", "ruby", "javaScript", "cli" ]}
+          techStacks = {["html", "css", "ruby", "javaScript", "cli", "ticketMaster" ]}
         />
-
-      </div>
+        </div>
+      
 
     </div>
   )

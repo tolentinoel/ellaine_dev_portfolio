@@ -22,7 +22,7 @@ class Thumbnail extends React.Component {
             )
         case 'css' :
           return (
-            <img src="https://img.shields.io/badge/-Css3-1572B6?logo=css3&logoColor=white&style=flat" alt={lang}/>
+            <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat" alt={lang}/>
             )
         case 'javaScript':
           return (
@@ -56,6 +56,14 @@ class Thumbnail extends React.Component {
           return (
             <img src="https://img.shields.io/badge/-CLI-4D4D4D?logo=windows%20terminal&logoColor=white&style=flat" alt={lang}/>
             )
+        case 'ticketMaster':
+          return (
+            <img src="https://img.shields.io/badge/-TicketMaster%20API-026CDF?logo=ticketmaster&logoColor=white&style=flat" alt={lang}/>
+            )
+        case 'reactRouter':
+          return (
+            <img src="https://img.shields.io/badge/-React%20Router-CA4245?logo=react%20router&logoColor=white&style=flat" alt={lang}/>
+        )
         default:
           return (
             <p>{lang}</p>
