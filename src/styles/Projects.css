@@ -95,14 +95,16 @@
         padding: 5rem 0rem;
     }
 
-  
+    .projectTitle{
+        line-height: 15px;
+    }
 
     #projects{
         height:max-content;
     }
 
     #pic{
-        width: 12em;
+        width: 10em;
     }
 
     #info{
