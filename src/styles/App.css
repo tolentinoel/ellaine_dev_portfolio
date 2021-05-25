@@ -88,7 +88,14 @@ html{
   text-decoration: none;
   color: #bfff00;
   display: flex;
-  justify-content: space-between;
+ padding-right: 18px;
+}
+
+#tab1:hover, #tab2:hover, #tab3:hover, #tab4:hover, #tab5:hover,#tab1:focus, #tab2:focus, #tab3:focus, #tab4:focus, #tab5:focus{
+  transform: scale(1.08);
+  font-weight: bolder;
+  transition: all .2s;
+ 
 }
 
 .summary{
