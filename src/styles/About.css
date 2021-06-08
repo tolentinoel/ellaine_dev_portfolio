@@ -106,7 +106,7 @@
 
     }
 
-
+/* MOBILE LANDSCAPE */
 @media (min-width: 481px) and (max-width: 767px){
 
 #about {
@@ -194,7 +194,7 @@
 
     .aboutLabel{
         text-align: center;
-        padding: 0;
+        padding-top: 5em;
         margin-left: auto;
         margin-right: auto;
         width: 69vw;

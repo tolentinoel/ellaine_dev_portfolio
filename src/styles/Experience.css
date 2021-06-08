@@ -117,6 +117,16 @@
 
     }
 
+    .expHeader{
+       margin-left: 1em;
+    }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
   }
 
 

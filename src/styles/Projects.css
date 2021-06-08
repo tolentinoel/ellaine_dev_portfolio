@@ -127,19 +127,35 @@
 
 /* MOBILE LANDSCAPE */
 @media (min-width: 481px) and (max-width: 767px){
-    #projects{
-        margin-top: 10em;
-        height: min-content;
+   
+    .projectDiv{
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+
     }
 
     .projectSubDiv{
-        margin-top: 3em;
-        padding-left: 5em;
-        padding-right: 5em;
+        flex-wrap: wrap;
     }
 
+    .projectHeader{
+        width: 50vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     .project{
-        margin-bottom: 1px;
+        display: inline-block;
+        padding-bottom: 20px;
+        padding: 24px 15px 0px 15px;
+        width: 50%;
     }
 }
 
