@@ -22,7 +22,6 @@ class Experience extends React.Component{
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
                   <Nav.Link eventKey="first">Hilton <Card.Subtitle className="mb-2 text-light">San Jose,CA | Oct 2016 – March 2020</Card.Subtitle></Nav.Link>
-                  
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Beverly Heritage <Card.Subtitle className="mb-2 text-light">Milpitas,CA | May 2015 - May 2016</Card.Subtitle></Nav.Link>

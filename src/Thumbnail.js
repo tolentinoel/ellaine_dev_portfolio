@@ -68,8 +68,13 @@ class Thumbnail extends React.Component {
           return (
             <img src="https://img.shields.io/badge/-Font%20Awesome-005571?logo=font%20awesome&logoColor=white&style=flat" alt={lang}/>
         )
+        case 'hostgator':
+          return(
+            <img src ="https://img.shields.io/static/v1?label=Hosted&message=HostGator&color=yellow" alt={lang}/>
+          )
         default:
           return (
+            
             <p>{lang}</p>
             )
       }
@@ -91,12 +96,16 @@ class Thumbnail extends React.Component {
           <span className="projectTitle">
               <h4 id="info">
                 <a className="projectInfo" href={this.props.link} target= "_blank" alt="website for app" rel="noreferrer"><strong>{this.props.title}</strong> </a> |
+                {this.props.githubRepo === "" ? 
+                <a className="projectInfo" href={this.props.social} target= "_blank" alt="link for social" rel="noreferrer"><strong> Instagram</strong></a>
+                :
                 <a className="projectInfo" href={this.props.githubRepo} target= "_blank" alt="website for repo" rel="noreferrer"><strong> Github</strong></a>
+                }
               </h4>
                 <p>{this.props.info}</p>
               <span>
                 {this.stacks(this.props.techStacks)}
-                
+
               </span>
           </span>
 

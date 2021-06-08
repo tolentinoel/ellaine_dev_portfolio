@@ -6,6 +6,7 @@ import splash from './images/splashGlam_thumb.png';
 import makegotchi from './images/makegotchi_thumb.png';
 import football from './images/FF_thumb.png';
 import dev from './images/devlogo2.png';
+import sucia from './images/sucia_thumb.png';
 
 function Projects(props) {
   
@@ -14,11 +15,24 @@ function Projects(props) {
     <div className="projectDiv">
       <h1 className="projectHeader">Projects</h1>
       <div className="projectSubDiv">
+
+        <Thumbnail
+          link="http://suciacharters.com/"
+          image={sucia}
+          title="Sucia Charters"
+          githubRepo=""
+          social = "https://www.instagram.com/sucia_charters/"
+          techStacks = {["html", "css", "ruby", "react", "bootstrap", "fontawesome", "hostgator"]}
+          info="Fully redesigned charter boat tour business website from an HTML, CSS, JS into a React App. Updated everything from photos displayed, verbiages and company logo. Company based from Seattle,WA."
+        />
+
+
         <Thumbnail
           link="http://ellaine.dev/"
           image={dev}
           title="Portfolio"
-          githubRepo="https://github.com/tolentinoel/ellaine_dev_portfolio"
+          githubRepo=""
+          social = "https://www.instagram.com/tolentinoel/"
           techStacks = {["html", "css", "ruby", "react", "bootstrap", "fontawesome"]}
           info="My portfolio website hosted at 'ellaine.dev/'. It contains few recent articles, projects and links to my social media accounts."
         />
