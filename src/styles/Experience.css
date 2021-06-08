@@ -42,7 +42,6 @@
     padding-top:0rem;
 }
 
-
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {
     position: relative;
     display: flex;
@@ -54,6 +53,7 @@
 
 }
 
+/* MOBILE PORTRAIT */
 @media (min-width: 320px) and (max-width: 480px){
 
     #experience{
@@ -107,31 +107,115 @@
     }
   }
 
-
+/* MOBILE LANDSCAPE */
   @media (min-width: 481px) and (max-width: 767px){
 
-    .expDiv{
+    /* .expDiv{
         padding: 1rem 2rem 1rem 1rem;
         line-height: 26px;
         height:min-content;
 
     }
 
-  }
+    .expHeader{
+       margin-left: 1em;
+    }
 
-  @media (min-width: 768px) and (max-width: 1024px){
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    } */
 
     .expDiv{
         padding: 1rem 2rem 1rem 1rem;
-        /* line-height: 26px; */
         height:min-content;
 
     }
 
+    #expInfo{
+        width: 88vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .expHeader{
+
+        width: 70vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #expRows{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
+    }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
   }
 
+
+/* TABLET IPAD PORTRAIT */
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .expDiv{
+        padding: 1rem 2rem 1rem 1rem;
+        height:min-content;
+
+    }
+
+    #expInfo{
+        width: 88vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .expHeader{
+
+        width: 70vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #expRows{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
+    }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+
+}
+
   /* TABLET IPAD LANDSCAPE */
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
 
     .expDiv{
         padding: 1rem 2rem 1rem 1rem;
@@ -162,6 +246,17 @@
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
     }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+
+
   }

@@ -31,7 +31,7 @@ class App extends React.Component {
       <Button variant="outline-dark" id="footText">Built & Designed by Ellaine Tolentino</Button>
     </OverlayTrigger>
   );
-  
+
   render(){
   return (
     <div>
@@ -88,12 +88,15 @@ class App extends React.Component {
         </div>
 
         <div id= "contact">
-          <h1>Contact Me:</h1>
-          <a href="mailto:tolentino.el@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faAt} size="2x" color="#caf000;" className="icon"/></a>
-          <a href="https://twitter.com/tolentinoEL" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faTwitter} size="2x" color="#caf000;" className="icon"/></a>
-          <a href="https://dev.to/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faDev} size="2x" color="#caf000;" className="icon"/></a>
-          <a href="https://www.linkedin.com/in/ellainet/" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faLinkedin} size="2x" color="#caf000;" className="icon"/></a>
-          <a href="https://github.com/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faGithub} size="2x" color="#caf000;" className="icon"/></a>
+          <div id= "contactBody">
+            <h1>Contact Me:</h1>
+            <a href="mailto:tolentino.el@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faAt} size="2x" color="#caf000;" className="icon"/></a>
+            <a href="https://twitter.com/tolentinoEL" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faTwitter} size="2x" color="#caf000;" className="icon"/></a>
+            <a href="https://dev.to/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faDev} size="2x" color="#caf000;" className="icon"/></a>
+            <a href="https://www.linkedin.com/in/ellainet/" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faLinkedin} size="2x" color="#caf000;" className="icon"/></a>
+            <a href="https://github.com/tolentinoel" rel="noreferrer" target="_blank"><FontAwesomeIcon focusable="true" icon={faGithub} size="2x" color="#caf000;" className="icon"/></a>
+          </div>
+
         </div>
 
         <span><a href="#top"><img src={logo} className="logo" alt="Logo" /></a></span>
@@ -110,7 +113,7 @@ class App extends React.Component {
   );
 
   }
-  
+
 }
 
 

@@ -95,7 +95,7 @@ html{
   transform: scale(1.08);
   font-weight: bolder;
   transition: all .2s;
- 
+
 }
 
 .summary{
@@ -180,12 +180,8 @@ html{
 
 
 
-
-
-
-
-
-@media (max-width: 768px){
+/* MOBILE PORTRAIT */
+@media (min-width: 320px) and (max-width: 480px){
 
   .landing {
       height:max-content;
@@ -196,6 +192,7 @@ html{
   }
 
   #contact{
+    padding-top: 3em;
     height: 35vh;
   }
 
@@ -213,6 +210,31 @@ html{
 
   #name2{
     font-size: 5rem;
+  }
+
+}
+/* MOBILE LANDSCAPE */
+@media (min-width: 481px) and (max-width: 767px){
+  .App{
+    padding-top: 5rem;
+  }
+
+  .landing{
+    height: min-content;
+  }
+
+  #contact {
+    height: min-content;
+    margin-bottom: 6em;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+  #contact {
+    height: min-content;
+    margin-bottom: 6em;
   }
 
 }

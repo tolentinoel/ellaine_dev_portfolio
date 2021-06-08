@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
+import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup'
 
 class Experience extends React.Component{
@@ -20,24 +21,24 @@ class Experience extends React.Component{
             <Col sm={3.5} id="companyPills">
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Hilton</Nav.Link>
+                  <Nav.Link eventKey="first">Hilton <Card.Subtitle className="mb-2 text-light">San Jose,CA | Oct 2016 – March 2020</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Beverly Heritage</Nav.Link>
+                  <Nav.Link eventKey="second">Beverly Heritage <Card.Subtitle className="mb-2 text-light">Milpitas,CA | May 2015 - May 2016</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">DoubleTree by Hilton</Nav.Link>
+                  <Nav.Link eventKey="third">DoubleTree by Hilton<Card.Subtitle className="mb-2 text-light">Fremont,CA | Feb 2014 - May 2016</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fourth">Freelance</Nav.Link>
+                  <Nav.Link eventKey="fourth">Freelance Construction<Card.Subtitle className="mb-2 text-light">Bay Area,CA | Sep 2014 - 2014</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fifth">GrandSpace Furniture & Interiors</Nav.Link>
+                  <Nav.Link eventKey="fifth">GrandSpace Furniture & Interiors <Card.Subtitle className="mb-2 text-light">Quezon City, Philippines | April 2012 - 2013</Card.Subtitle></Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
 
-            <Col lg={8} id="expInfoText">
+            <Col lg="auto" id="expInfoText">
               <Tab.Content id="tab-content">
                 <Tab.Pane eventKey="first">
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
