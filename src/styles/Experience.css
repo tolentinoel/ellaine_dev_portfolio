@@ -129,6 +129,41 @@
 
     }
 
+    #expInfo{
+        width: 88vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .expHeader{
+
+        width: 70vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #expRows{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
+    }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+
+
    
 
 }
