@@ -119,19 +119,22 @@
 
   }
 
-  @media (min-width: 768px) and (max-width: 1024px){
+
+/* TABLET IPAD PORTRAIT */
+@media (min-width: 768px) and (max-width: 1024px){
 
     .expDiv{
         padding: 1rem 2rem 1rem 1rem;
-        /* line-height: 26px; */
         height:min-content;
 
     }
 
-  }
+   
+
+}
 
   /* TABLET IPAD LANDSCAPE */
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
 
     .expDiv{
         padding: 1rem 2rem 1rem 1rem;
@@ -162,6 +165,17 @@
         flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
-        width: 100vw;
+        margin-right: auto;
+        margin-left: auto;
+        width: 80vw;
     }
+
+    #expInfoText{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        line-height: 22px;
+    }
+
+
+    
   }
