@@ -84,8 +84,6 @@
         text-align: center;
         padding: 0;
         margin: 0px;
-        /* margin-left: auto; */
-        /* margin-right: auto; */
         display: initial;
     }
 
@@ -132,7 +130,38 @@
 
   }
 
+  /* TABLET IPAD LANDSCAPE */
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
 
-    
+    .expDiv{
+        padding: 1rem 2rem 1rem 1rem;
+        margin-top: 5em;
+        height:min-content;
+
+    }
+
+    #expInfo{
+        width: 88vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .expHeader{
+
+        width: 70vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
   }
