@@ -95,7 +95,7 @@ html{
   transform: scale(1.08);
   font-weight: bolder;
   transition: all .2s;
- 
+
 }
 
 .summary{
@@ -180,7 +180,7 @@ html{
 
 
 
-
+/* MOBILE PORTRAIT */
 @media (min-width: 320px) and (max-width: 480px){
 
   .landing {
@@ -213,11 +213,21 @@ html{
   }
 
 }
-
+/* MOBILE LANDSCAPE */
 @media (min-width: 481px) and (max-width: 767px){
   .App{
     padding-top: 5rem;
   }
+
+  .landing{
+    height: min-content;
+  }
+
+  #contact {
+    height: min-content;
+    margin-bottom: 6em;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
@@ -225,6 +235,6 @@ html{
   #contact {
     height: min-content;
     margin-bottom: 6em;
-  } 
+  }
 
 }

@@ -110,7 +110,7 @@
 @media (min-width: 481px) and (max-width: 767px){
 
 #about {
-    padding: 5em 0px;
+    padding: 5em 0em 0em 0em;
     height: min-content;
 }
 
