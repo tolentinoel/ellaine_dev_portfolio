@@ -34,11 +34,11 @@ class Thumbnail extends React.Component {
             )
         case 'heroku':
           return (
-            <img src="https://img.shields.io/badge/-Heroku-005571?logo=heroku&logoColor=white&style=flat" alt={lang}/>
+            <img src ="https://img.shields.io/static/v1?label=Hosted&message=Heroku&color=005571" alt={lang}/>
             )
         case 'netlify':
           return (
-            <img src="https://img.shields.io/badge/-Netlify-005571?logo=netlify&logoColor=white&style=flat" alt={lang}/>
+            <img src ="https://img.shields.io/static/v1?label=Hosted&message=Netlify&color=005571" alt={lang}/>
             )
         case 'postgresql':
           return (
@@ -50,7 +50,7 @@ class Thumbnail extends React.Component {
             )
         case 'github':
           return (
-            <img src="https://img.shields.io/badge/-github-005571?logo=github&logoColor=white&style=flat" alt={lang}/>
+            <img src ="https://img.shields.io/static/v1?label=Hosted&message=Github.io&color=005571" alt={lang}/>
             )
         case 'cli':
           return (
@@ -70,7 +70,7 @@ class Thumbnail extends React.Component {
         )
         case 'hostgator':
           return(
-            <img src ="https://img.shields.io/static/v1?label=Hosted&message=HostGator&color=yellow" alt={lang}/>
+            <img src ="https://img.shields.io/static/v1?label=Hosted&message=HostGator&color=005571" alt={lang}/>
           )
         default:
           return (

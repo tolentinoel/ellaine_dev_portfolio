@@ -21,11 +21,6 @@
     width: 41vw;
 }
 
-.project{
-    display: inline-block;
-    padding-bottom: 20px;
-    padding: 0px 15px 0px 15px;
-}
 
 .expInfoHeader{
     font-family: 'Luckiest Guy', cursive;
@@ -40,6 +35,10 @@
 
 #companyPills{
     padding-top:0rem;
+}
+
+#expRows{
+    gap: 2em;
 }
 
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {
@@ -69,7 +68,7 @@
     }
 
     #expRows{
-        gap: 16px;
+        grid-gap: 35px;
     }
 
     .expDiv{
@@ -158,6 +157,7 @@
         margin-right: auto;
         margin-left: auto;
         width: 80vw;
+        gap: 2em;
     }
 
     #expInfoText{
@@ -203,6 +203,7 @@
         margin-right: auto;
         margin-left: auto;
         width: 80vw;
+        gap: 0px;
     }
 
     #expInfoText{
