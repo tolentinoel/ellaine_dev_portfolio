@@ -9,7 +9,7 @@ class Thumbnail extends React.Component {
       switch (lang){
         case 'react':
           return (
-            <img key={lang} src="https://img.shields.io/badge/-ReactJs-4298B8?logo=react&logoColor=white&style=flat" alt={lang} width="60" width="80" height="20"/>
+            <img key={lang} src="https://img.shields.io/badge/-ReactJs-4298B8?logo=react&logoColor=white&style=flat" alt={lang} width="80" height="20"/>
             )
         case 'ruby' :
           return (

@@ -44,10 +44,10 @@ class Experience extends React.Component{
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
                   <ListGroup variant="flush" >
                     <ul>
-                      <ListGroup.Item id="info1c"><li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li></ListGroup.Item>
-                      <ListGroup.Item id="info2c"><li>Proficient in operating systems and brand loyalty programs.</li></ListGroup.Item>
-                      <ListGroup.Item id="info3c"><li>Contributes to company revenue by upselling additional facilities and services.</li></ListGroup.Item>
-                      <ListGroup.Item id="info4c"><li>Provides accurate, descriptive company information to clients including the hours of operation, facility features, tourist destinations, and all services or amenities available.</li></ListGroup.Item>
+                      <li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li>
+                      <li>Proficient in operating systems and brand loyalty programs.</li>
+                      <li>Contributes to company revenue by upselling additional facilities and services.</li>
+                      <li>Provides accurate, descriptive company information to clients including the hours of operation, facility features, tourist destinations, and all services or amenities available.</li>
                     </ul>
                   </ListGroup>
                 </Tab.Pane>
@@ -55,42 +55,49 @@ class Experience extends React.Component{
                 <Tab.Pane eventKey="second">
                   <h4 className="expInfoHeader">Front Office Supervisor</h4>
                   <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1b"><li>Balances hotel occupancy and contributes to company revenue by upselling.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2b"><li>Serves as manager on duty during the shift and implements standard operating procedures.</li></ListGroup.Item>
-                    <ListGroup.Item id="info3b"><li>Provides hands-on training & customer relationship management coaching to new associates.</li></ListGroup.Item>
-                    <ListGroup.Item id="info4b"><li>Monitors employee productivity, provides constructive feedback and coaching.</li></ListGroup.Item>
-                    <ListGroup.Item id="info5b"><li>Awarded as Employee of the Month in December 2015</li></ListGroup.Item>
+                    <ul>
+                      <li>Balances hotel occupancy and contributes to company revenue by upselling.</li>
+                      <li>Serves as manager on duty during the shift and implements standard operating procedures.</li>
+                      <li>Provides hands-on training & customer relationship management coaching to new associates.</li>
+                      <li>Monitors employee productivity, provides constructive feedback and coaching.</li>
+                      <li>Awarded as Employee of the Month in December 2015</li>
+                    </ul>
                   </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
                   <h4 className="expInfoHeader">Guest Service Agent</h4>
                   <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1a"><li>Satisfies and delights customers by fulfilling client needs or requests.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2a"><li>Maintains property occupancy of 100% with 315 rooms and performs standard operating procedures. </li></ListGroup.Item>
-                    <ListGroup.Item id="info3a"><li>Handles general office duties and delivers customer service to a high-volume diverse user group or event.</li></ListGroup.Item>
-                    <ListGroup.Item id="info4a"><li>Awarded as Front Office Service Superstar in 2014</li></ListGroup.Item>
-                    <ListGroup.Item id="info5a"><li>Awarded as November 2014's Team Member of the Month</li></ListGroup.Item>
+                    <ul>
+                      <li>Satisfies and delights customers by fulfilling client needs or requests.</li>
+                      <li>Maintains property occupancy of 100% with 315 rooms and performs standard operating procedures. </li>
+                      <li>Handles general office duties and delivers customer service to a high-volume diverse user group or event.</li>
+                      <li>Awarded as Front Office Service Superstar in 2014</li>
+                      <li>Awarded as November 2014's Team Member of the Month</li>
+                    </ul>
                   </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fourth">
                   <h4 className="expInfoHeader">Construction Intern</h4>
-                  <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1"><li>Provided detailed proposals to clients including but not limited to contracts, working, drawings, & color schemes.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2"><li>Handled paperwork, payments and consultation between contractors, clients & suppliers.</li></ListGroup.Item>
-                    <ListGroup.Item id="info3"><li>Proficient in operating tools and machinery in carpentry, masonry, and painting.</li></ListGroup.Item>
-
+                  <ListGroup variant="flush">
+                    <ul>
+                      <li>Provided detailed proposals to clients including but not limited to contracts, working, drawings, & color schemes.</li>
+                      <li>Handled paperwork, payments and consultation between contractors, clients & suppliers.</li>
+                      <li>Proficient in operating tools and machinery in carpentry, masonry, and painting.</li>
+                    </ul>
                   </ListGroup>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="fifth">
                   <h4 className="expInfoHeader">Interior Designer</h4>
                   <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1"><li>Prepares sketches, proposals, quotations, and contracts for the clients.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2"><li>Manages project planning, design execution, and revisions between contractors, clients & suppliers.</li></ListGroup.Item>
-                    <ListGroup.Item id="info3"><li>Oversees the progress of project work and updates the project plans to reflect actual performance.</li></ListGroup.Item>
-                    <ListGroup.Item id="info4"><li>Delivers highly detailed swatch board & 2D/3D CAD working drawings.</li></ListGroup.Item>
+                    <ul>
+                      <li>Prepares sketches, proposals, quotations, and contracts for the clients.</li>
+                      <li>Manages project planning, design execution, and revisions between contractors, clients & suppliers.</li>
+                      <li>Oversees the progress of project work and updates the project plans to reflect actual performance.</li>
+                      <li>Delivers highly detailed swatch board & 2D/3D CAD working drawings.</li>
+                    </ul>
                   </ListGroup>
 
                 </Tab.Pane>
