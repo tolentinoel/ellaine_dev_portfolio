@@ -1,12 +1,9 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import logo from './images/Logo3.png';
 import './styles/App.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Projects from './Projects.js';
-import Blog from './Blog.js';
-import About from './About.js';
-import Experience from './Experience.js';
+
 import Button from 'react-bootstrap/Button';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
@@ -15,6 +12,8 @@ import { faAt} from '@fortawesome/free-solid-svg-icons';
 import {faTwitter, faDev, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 class App extends React.Component {
+
+
 
 
   popover = (
@@ -33,6 +32,35 @@ class App extends React.Component {
   );
 
   render(){
+
+    const AboutComponent = lazy(() => import('./About'));
+    const ProjectsComponent = lazy(() => import('./Projects'));
+    const BlogComponent = lazy(() => import('./Blog'));
+    const ExperienceComponent = lazy(() => import('./Experience'));
+
+
+    const renderLoader = () => <h2>Loading...</h2>
+
+
+    const DetailsComponent = () => (
+      <Suspense fallback= {renderLoader()}>
+        <div id="about">
+          <AboutComponent/>
+        </div>
+
+        <div id= "experience">
+          <ExperienceComponent />
+        </div>
+
+        <div id= "projects">
+          <ProjectsComponent/>
+        </div>
+
+        <div id="blog">
+          <BlogComponent/>
+        </div>
+      </Suspense>
+    )
   return (
     <div>
       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
@@ -71,8 +99,10 @@ class App extends React.Component {
           </div>
         </div>
 
-        <div id="about">
-          <About/>
+
+        <DetailsComponent/>
+        {/* <div id="about">
+          <DetailsComponent/>
         </div>
 
         <div id= "experience">
@@ -85,7 +115,7 @@ class App extends React.Component {
 
         <div id="blog">
           <Blog/>
-        </div>
+        </div> */}
 
         <div id= "contact">
           <div id= "contactBody">

@@ -10,6 +10,9 @@ import sucia from './images/sucia_thumb.png';
 
 function Projects(props) {
 
+  
+  
+
   return (
 
     <div className="projectDiv">
@@ -17,6 +20,7 @@ function Projects(props) {
       <div className="projectSubDiv">
 
         <Thumbnail
+          key= "1"
           link="http://suciacharters.com/"
           image={sucia}
           title="Sucia Charters"
@@ -28,6 +32,7 @@ function Projects(props) {
 
 
         <Thumbnail
+          key="2"
           link="http://ellaine.dev/"
           image={dev}
           title="Portfolio"
@@ -39,6 +44,7 @@ function Projects(props) {
 
 
         <Thumbnail
+          key="3"
           link="https://tolentinoel.github.io/flip"
           image={flip}
           title="Flip!"
@@ -50,6 +56,7 @@ function Projects(props) {
 
         <div className="projectSubDiv">
         <Thumbnail
+          key="4"
           link="https://makegotchi.herokuapp.com/"
           image={makegotchi}
           title="Makegotchi"
@@ -59,22 +66,24 @@ function Projects(props) {
         />
 
           <Thumbnail
-          link="https://splashglam.herokuapp.com/"
-          image={splash}
-          title="SplashGlam"
-          githubRepo="https://github.com/tolentinoel/splashglam_frontend"
-          techStacks = {["html", "css", "ruby", "postgresql", "javaScript", "react", "bootstrap", "heroku" ]}
-          info = "A React-powered, e-commerce skincare app using Soko Glam product data. The app also has a bookmarking & theme toggling feature for the users."
+            key="5"
+            link="https://splashglam.herokuapp.com/"
+            image={splash}
+            title="SplashGlam"
+            githubRepo="https://github.com/tolentinoel/splashglam_frontend"
+            techStacks = {["html", "css", "ruby", "postgresql", "javaScript", "react", "bootstrap", "heroku" ]}
+            info = "A React-powered, e-commerce skincare app using Soko Glam product data. The app also has a bookmarking & theme toggling feature for the users."
         />
 
           <Thumbnail
-          link="https://www.youtube.com/watch?v=U66aECUWbTQ&t=1s"
-          image={football}
-          title="FootballFanatic"
-          githubRepo="https://github.com/tolentinoel/footballFanatic"
-          techStacks = {["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]}
-          info="A CLI app that displays events or football games that can be found through city name, date, team/performer
-          name or stadium name using the TicketMaster API. "
+            key="6"
+            link="https://www.youtube.com/watch?v=U66aECUWbTQ&t=1s"
+            image={football}
+            title="FootballFanatic"
+            githubRepo="https://github.com/tolentinoel/footballFanatic"
+            techStacks = {["html", "css", "ruby","sqlite", "javaScript", "cli", "ticketMaster" ]}
+            info="A CLI app that displays events or football games that can be found through city name, date, team/performer
+            name or stadium name using the TicketMaster API. "
         />
 
         </div>

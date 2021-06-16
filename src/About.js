@@ -11,10 +11,10 @@ render(){
       <h1 className="aboutLabel">About Me:</h1>
         <div className="aboutTextDiv">
           <div className="soloPhotDiv">
-            <img src={solo} className="soloPhoto" alt="solo pic" />
+            <img src={solo} className="soloPhoto" alt="solo pic" width="250px" height="250px"/>
 
           </div>
-          <h5 className="aboutText">
+          <h3 className="aboutText">
             I am Ellaine Tolentino. My pronouns are She/They. I am a member of the LGBTQIA+ community, a first generation Filipino and I love the Arts and Music. My discovery of Software Development began back in 2009 in a computer class fiddling with the theme of my Friendster & MySpace accounts. I didn't knew I was in the realm of HTML and CSS then but I enjoyed it to the point I even ventured on embedding music & videos on my page!
             <br/>
             Fast-forward to today, and now I am a coding bootcamp graduate with a degree in Interior Design. I consider myself as a full-stack dev but Front-end Development is my favorite! I am looking forward in producing creative and interesting products/projects that will serve as a great contribution to the community. I am also trying to learn more of data structures and practice alot more algorithms!
@@ -39,7 +39,7 @@ render(){
               <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
             </div>
 
-          </h5>
+          </h3>
         </div>
 
     </section>

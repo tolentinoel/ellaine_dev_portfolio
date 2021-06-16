@@ -43,10 +43,12 @@ class Experience extends React.Component{
                 <Tab.Pane eventKey="first">
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
                   <ListGroup variant="flush" >
-                    <ListGroup.Item id="info1c"><li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li></ListGroup.Item>
-                    <ListGroup.Item id="info2c"><li>Proficient in operating systems and brand loyalty programs.</li></ListGroup.Item>
-                    <ListGroup.Item id="info3c"><li>Contributes to company revenue by upselling additional facilities and services.</li></ListGroup.Item>
-                    <ListGroup.Item id="info4c"><li>Provides accurate, descriptive company information to clients including the hours of operation, facility features, tourist destinations, and all services or amenities available.</li></ListGroup.Item>
+                    <ul>
+                      <ListGroup.Item id="info1c"><li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li></ListGroup.Item>
+                      <ListGroup.Item id="info2c"><li>Proficient in operating systems and brand loyalty programs.</li></ListGroup.Item>
+                      <ListGroup.Item id="info3c"><li>Contributes to company revenue by upselling additional facilities and services.</li></ListGroup.Item>
+                      <ListGroup.Item id="info4c"><li>Provides accurate, descriptive company information to clients including the hours of operation, facility features, tourist destinations, and all services or amenities available.</li></ListGroup.Item>
+                    </ul>
                   </ListGroup>
                 </Tab.Pane>
 

@@ -46,6 +46,7 @@
 
 .projectTitle img{
     margin: 3px;
+    aspect-ratio: attr(width)/ attr(height);
 }
 
 #info{
@@ -63,8 +64,7 @@
 #pic{
     border-radius: 50%;
     width: 13em;
-    /* padding-bottom: 7px;
-    padding-top: 15px; */
+    height: auto;
 }
 
 #pic:hover, #pic:focus{

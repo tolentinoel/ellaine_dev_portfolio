@@ -35,11 +35,9 @@ class Blog extends Component {
                         return (
                         <Card className="blogCard" border="outline-info" bg="dark" key={this.state.blogs.indexOf(content)}>
                             <Card.Img variant="top" src={content.cover_image} />
-                            <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h5>{content.title}</h5></a></Card.Header>
+                            <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h4>{content.title}</h4></a></Card.Header>
                             <Card.Body >
-                                {/* 1ST WAY TO SHOW TAGS AS A STRING */}
-                                    {/* <Card.Subtitle className="mb-1 text-muted">{content.tags.replaceAll(','," ")}</Card.Subtitle>  */}
-                                {/* 2ND WAY IS TO ITERATE THROUGH THE ARRAY OF TAG_LIST */}
+                               
                                 <span className="subtitle">
                                     {content.tag_list.map(tag => {
                                         return <Card.Subtitle className="mb-1 text-muted" key={content.tag_list.indexOf(tag)}>#{tag}</Card.Subtitle>

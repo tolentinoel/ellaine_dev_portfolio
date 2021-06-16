@@ -43,8 +43,9 @@
 
 
 .soloPhoto{
-    width: 20rem;
-    height: 20rem;
+    /* width: 20rem;
+    height: 20rem; */
+    aspect-ratio: attr(width) / attr(height);
     border-radius: 170px;
 
 
