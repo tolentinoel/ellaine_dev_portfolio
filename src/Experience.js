@@ -42,7 +42,7 @@ class Experience extends React.Component{
               <Tab.Content id="tab-content">
                 <Tab.Pane eventKey="first">
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
-                  <ListGroup variant="flush" >
+                  <ListGroup variant="flush" id="expList">
                     <ul>
                       <li>Performs detailed operational procedures that cater to a high-volume diverse user group.</li>
                       <li>Proficient in operating systems and brand loyalty programs.</li>
