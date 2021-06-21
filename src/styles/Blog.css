@@ -58,7 +58,7 @@
 .blogCard a{
     text-decoration: none;
     color:white;
-    
+
 }
 
 .blogCard a:hover{
@@ -78,7 +78,11 @@
     flex-direction: row;
     width: min-content;
     margin:auto;
-    
+
+}
+
+.cardImgTop{
+    aspect-ratio: attr(width)/attr(height);
 }
 
 
