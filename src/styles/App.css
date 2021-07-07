@@ -212,6 +212,9 @@ html{
     font-size: 5rem;
   }
 
+  #tab1, #tab2, #tab3, #tab4, #tab5{
+    padding-left:15px;
+  }
 }
 /* MOBILE LANDSCAPE */
 @media (min-width: 481px) and (max-width: 767px){
@@ -228,6 +231,10 @@ html{
     margin-bottom: 6em;
   }
 
+  #tab1, #tab2, #tab3, #tab4, #tab5{
+    padding-left:15px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
@@ -235,6 +242,10 @@ html{
   #contact {
     height: min-content;
     margin-bottom: 6em;
+  }
+
+  #tab1, #tab2, #tab3, #tab4, #tab5{
+    padding-left:15px;
   }
 
 }
