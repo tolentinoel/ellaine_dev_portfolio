@@ -33,22 +33,23 @@ class Blog extends Component {
                 <div className="blog">
                     {this.state.blogs.slice(0,4).map(content => {
                         return (
-                        <Card className="blogCard" border="outline-info" bg="dark" key={this.state.blogs.indexOf(content)}>
-                            <Card.Img className="cardImgTop" variant="top" src={content.cover_image} alt={content.tag_list.join()+ "-BLOG"} width="278" height="117"/>
-                            <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h4>{content.title}</h4></a></Card.Header>
-                            <Card.Body >
+                        <a className="cardLink" href={content.url} target="_blank" rel="noreferrer">
+                            <Card className="blogCard" border="outline-info" bg="dark" key={this.state.blogs.indexOf(content)}>
+                                <Card.Img className="cardImgTop" variant="top" src={content.cover_image} alt={content.tag_list.join()+ "-BLOG"} width="278" height="117"/>
+                                <Card.Header><a href={content.url} target="_blank" rel="noreferrer"><h5>{content.title}</h5></a></Card.Header>
+                                <Card.Body >
 
-                                <span className="subtitle">
-                                    {content.tag_list.map(tag => {
-                                        return <Card.Subtitle className="mb-1 text-muted" key={content.tag_list.indexOf(tag)}>#{tag}</Card.Subtitle>
-                                    })}
-                                </span>
-                                <Card.Text className="blogBody">
-                                {content.description}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-
+                                    <span className="subtitle">
+                                        {content.tag_list.map(tag => {
+                                            return <Card.Subtitle className="mb-1 text-muted" key={content.tag_list.indexOf(tag)}>#{tag}</Card.Subtitle>
+                                        })}
+                                    </span>
+                                    <Card.Text className="blogBody">
+                                    {content.description}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </a>        
                             )
                         })
                     }

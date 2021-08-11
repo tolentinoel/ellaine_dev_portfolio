@@ -1,5 +1,5 @@
 #blog{
-    height: 100vh;
+    height: fit-content;
     padding-top: 7em;
 }
 
@@ -9,9 +9,9 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: min-content;
+    height: fit-content;
     font-family: 'Advent Pro', sans-serif;
-    font-size:18px;
+    font-size:15px;
 }
 
 .blogP{
@@ -38,12 +38,12 @@
 
 
 .blogCard{
-    width: 18rem;
+    width: 17rem;
     padding: 0.2em;
     margin: 10px 8px;
 }
 
-.blogCard h4{
+.blogCard h5{
     font-weight: 600;
 }
 
@@ -61,7 +61,12 @@
 
 }
 
-.blogCard a:hover{
+#blog a{
+    text-decoration: none;
+    color:white;
+}
+
+#blog a:hover{
     color:greenyellow;
     text-decoration: none;
 }
