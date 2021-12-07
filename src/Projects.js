@@ -7,11 +7,9 @@ import makegotchi from './images/makegotchi_thumb.png';
 import football from './images/FF_thumb.png';
 import dev from './images/devlogo2.png';
 import sucia from './images/sucia_thumb.png';
+import horoscope from './images/horoscopeGen_thumb.png';
 
 function Projects(props) {
-
-  
-  
 
   return (
 
@@ -21,6 +19,17 @@ function Projects(props) {
 
         <Thumbnail
           key= "1"
+          link="https://horoscope-gen.herokuapp.com/"
+          image={horoscope}
+          title="HoroscopeGen"
+          githubRepo="https://github.com/tolentinoel/horoscopeGenerator"
+          techStacks = {[ "react", "bootstrap", "fontawesome", "hostgator", "html", "css",]}
+          info="Powered by React, provides the user their general horoscope advice for the week and their lucky color."
+        />
+
+
+        <Thumbnail
+          key= "2"
           link="http://suciacharters.com/"
           image={sucia}
           title="Sucia Charters"
@@ -30,9 +39,8 @@ function Projects(props) {
           info="Fully redesigned charter boat tour business website from an HTML, CSS, JS into a React App. Updated everything from photos displayed, verbiages and company logo. Company based from Seattle,WA."
         />
 
-
         <Thumbnail
-          key="2"
+          key="3"
           link="http://ellaine.dev/"
           image={dev}
           title="Portfolio"
@@ -42,9 +50,8 @@ function Projects(props) {
           info="My portfolio website hosted at 'ellaine.dev/'. It contains few recent articles, projects and links to my social media accounts."
         />
 
-
         <Thumbnail
-          key="3"
+          key="4"
           link="https://tolentinoel.github.io/flip"
           image={flip}
           title="Flip!"
@@ -56,7 +63,7 @@ function Projects(props) {
 
         <div className="projectSubDiv">
         <Thumbnail
-          key="4"
+          key="5"
           link="https://makegotchi.herokuapp.com/"
           image={makegotchi}
           title="Makegotchi"
@@ -66,7 +73,7 @@ function Projects(props) {
         />
 
           <Thumbnail
-            key="5"
+            key="6"
             link="https://splashglam.herokuapp.com/"
             image={splash}
             title="SplashGlam"
@@ -76,7 +83,7 @@ function Projects(props) {
         />
 
           <Thumbnail
-            key="6"
+            key="7"
             link="https://www.youtube.com/watch?v=U66aECUWbTQ&t=1s"
             image={football}
             title="FootballFanatic"
@@ -87,9 +94,6 @@ function Projects(props) {
         />
 
         </div>
-
-
-
 
     </div>
   )
