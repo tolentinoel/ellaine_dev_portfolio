@@ -13,7 +13,7 @@
     text-align: initial;
     padding-left: 5%;
     padding-left: 0.5rem;
-    margin-left: 2em;
+    margin-left: 1em;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-bottom-style: dotted;
@@ -23,11 +23,14 @@
 
 
 .expInfoHeader{
+    font-size: larger;
     font-family: 'Luckiest Guy', cursive;
 }
 
-#expList{
-    color:#caf002;
+.expList {
+    font-size: smaller;
+    margin: 12px -1em;
+    color: #caf002;
 }
 
 #expInfo{
@@ -42,7 +45,13 @@
 }
 
 #expRows{
-    gap: 2em;
+    grid-gap: 2em;
+    gap: 10px;
+    margin-left: -2em;
+}
+
+#expInfoText{
+    width: 73%;
 }
 
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {
@@ -55,6 +64,12 @@
     font-size: 90%;
 
 }
+
+
+
+
+
+
 
 /* MOBILE PORTRAIT */
 @media (min-width: 320px) and (max-width: 480px){
