@@ -20,7 +20,7 @@ class App extends React.Component {
     <Popover id="popover-basic">
       <Popover.Title as="h3">Oh hey!</Popover.Title>
       <Popover.Content>
-        Want to follow my journey? Follow my Instagram! <a href="https://www.instagram.com/tolentinoel/?hl=en" target="_blank" rel="noreferrer"><strong>@tolentinoel</strong></a>
+        Want to follow my journey outside of code? Follow my Instagram! <a href="https://www.instagram.com/tolentinoel/?hl=en" target="_blank" rel="noreferrer"><strong>@tolentinoel</strong></a>
       </Popover.Content>
     </Popover>
   );
@@ -83,13 +83,16 @@ class App extends React.Component {
       <div className="App">
 
         <div className="headerDiv">
-          <h1 className="lHeader" id="mabuhay">Mabuhay! My name is <p className="lHeader" id="name2"> Ellaine.</p></h1>
+          <h1 className="lHeader" id="mabuhay">Mabuhay! <p className="lHeader" id="name2"> I'm Ellaine.</p></h1>
         </div>
 
         <div className="landing">
           <div id="summaryDiv">
-            <h1 className="summary" id="h1Landing"><strong>I am a builder, a designer, & a developer with a keen eye for design in all forms.</strong> </h1>
-            <h3 className="summary">I'm a Silicon Valley-based Software Engineer, with a demonstrated history of working in a customer-facing role in hospitality, background in construction and a Bachelor of Science degree in Interior Design. I am currently doing a freelance project to further practice my knowledge from my recent schooling.</h3>
+            <h1 className="summary" id="h1Landing"><strong>A former Interior Designer, hotelier, now turned programmer.</strong> </h1>
+            <h3 className="summary"> 
+            I'm a Silicon Valley-based web developer, with a history in hospitality, background in construction and a Bachelor of Science degree in Interior Design.
+            I consider myself as a meticulous, passionate learner, and a persevering individual that always tries to do a good job in all roles I have in life.
+            I am a bilingual(English & Tagalog) and skilled with Javascript, React, but recently learned C#, Typescript and Jest.</h3>
             <a href="mailto:tolentino.el@gmail.com">
               <Button variant="outline-light" id="contactButton">Keep in touch!</Button>
             </a>
@@ -99,23 +102,7 @@ class App extends React.Component {
           </div>
         </div>
 
-
         <DetailsComponent/>
-        {/* <div id="about">
-          <DetailsComponent/>
-        </div>
-
-        <div id= "experience">
-          <Experience />
-        </div>
-
-        <div id= "projects">
-          <Projects/>
-        </div>
-
-        <div id="blog">
-          <Blog/>
-        </div> */}
 
         <div id= "contact">
           <div id= "contactBody">

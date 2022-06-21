@@ -36,7 +36,7 @@ class Experience extends React.Component{
                   <Nav.Link eventKey="fifth">DoubleTree by Hilton<Card.Subtitle className="mb-2 text-light">Fremont,CA | Feb 2014 - May 2016</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="sixth">Freelance Construction<Card.Subtitle className="mb-2 text-light">Bay Area,CA | Sep 2014 - 2014</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="sixth">Freelance Construction<Card.Subtitle className="mb-2 text-light">Bay Area,CA | Sep 2013 - Jan 2014</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="seventh">GrandSpace Furniture & Interiors <Card.Subtitle className="mb-2 text-light">Quezon City, Philippines | April 2012 - 2013</Card.Subtitle></Nav.Link>

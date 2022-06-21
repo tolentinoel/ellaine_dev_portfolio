@@ -51,7 +51,8 @@
 }
 
 #expInfoText{
-    width: 73%;
+    margin-left: 2rem;
+    width: 68%;
 }
 
 #info1, #info2, #info3, #info4, #info1a, #info2a, #info3a, #info4a, #info5a, #info1b, #info2b, #info3b, #info4b, #info5b, #info1c, #info2c, #info3c, #info4c {

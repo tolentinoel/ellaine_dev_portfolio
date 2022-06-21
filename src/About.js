@@ -11,7 +11,7 @@ render(){
       <h1 className="aboutLabel">About Me:</h1>
         <div className="aboutTextDiv">
           <div className="soloPhotDiv">
-            <img src={solo} className="soloPhoto" alt="solo pic" width="250" height="250"/>
+            <img src={solo} className="soloPhoto" alt="solo pic" width="300" height="300"/>
 
           </div>
           <h3 className="aboutText">
@@ -28,7 +28,7 @@ render(){
               <img src="https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" width="140" height="28" alt="typescript"/>
               <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" width="80" height="28" alt="typescript"/>
               <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" width="140" height="28" alt="ruby"/>
-              <img src="https://img.shields.io/badge/c%23-A179DC?style=for-the-badge&logo=c-sharp&logoColor=white" width="60" height="28" alt="postgresql"/>
+              <img src="https://img.shields.io/badge/c%23-A179DC?style=for-the-badge&logo=c-sharp&logoColor=white" width="60" height="28" alt="c-sharp"/>
               <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" width="130" height="28" alt="postgresql"/>
               <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" width="100" height="28" alt="sqlite"/>
               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="100" height="28" alt="html"/>
