@@ -21,22 +21,25 @@ class Experience extends React.Component{
             <Col sm={3.5} id="companyPills">
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Freelance<Card.Subtitle className="mb-2 text-light">Remote, US | April 2021 – Present</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="first">Microsoft Leap<Card.Subtitle className="mb-2 text-light">Redmond,WA-Remote | Feb 2022 – June 2022</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Hilton <Card.Subtitle className="mb-2 text-light">San Jose,CA | Oct 2016 – March 2020</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="second">Freelance<Card.Subtitle className="mb-2 text-light">Remote, US | April 2021 – Present</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Beverly Heritage <Card.Subtitle className="mb-2 text-light">Milpitas,CA | May 2015 - May 2016</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="third">Hilton <Card.Subtitle className="mb-2 text-light">San Jose,CA | Oct 2016 – March 2020</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fourth">DoubleTree by Hilton<Card.Subtitle className="mb-2 text-light">Fremont,CA | Feb 2014 - May 2016</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="fourth">Beverly Heritage <Card.Subtitle className="mb-2 text-light">Milpitas,CA | May 2015 - May 2016</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="fifth">Freelance Construction<Card.Subtitle className="mb-2 text-light">Bay Area,CA | Sep 2014 - 2014</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="fifth">DoubleTree by Hilton<Card.Subtitle className="mb-2 text-light">Fremont,CA | Feb 2014 - May 2016</Card.Subtitle></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="sixth">GrandSpace Furniture & Interiors <Card.Subtitle className="mb-2 text-light">Quezon City, Philippines | April 2012 - 2013</Card.Subtitle></Nav.Link>
+                  <Nav.Link eventKey="sixth">Freelance Construction<Card.Subtitle className="mb-2 text-light">Bay Area,CA | Sep 2014 - 2014</Card.Subtitle></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="seventh">GrandSpace Furniture & Interiors <Card.Subtitle className="mb-2 text-light">Quezon City, Philippines | April 2012 - 2013</Card.Subtitle></Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
@@ -44,7 +47,20 @@ class Experience extends React.Component{
             <Col lg="auto" id="expInfoText">
               <Tab.Content id="tab-content">
 
-                <Tab.Pane eventKey="first">
+              <Tab.Pane eventKey="first">
+                  <h4 className="expInfoHeader">Software Engineer Apprentice</h4>
+                  <ListGroup variant="flush">
+                    <ul class="expList">
+                      <li> Applied engineering principles to solve complex problems through sound and creative engineering.</li>
+                      <li> Learned new technical procedures quickly and integrated them into the work processes. </li>
+                      <li> Collaborated but also worked independently to solve problems and created technological solutions using
+internal/industry best practices.</li>
+                      <li> Demonstrated time management skill and completed software projects in a cooperative team environment.</li>
+                    </ul>
+                  </ListGroup>
+                </Tab.Pane>
+
+                <Tab.Pane eventKey="second">
                   <h4 className="expInfoHeader">Web Developer</h4>
                   <ListGroup variant="flush">
                     <ul class="expList">
@@ -56,7 +72,7 @@ class Experience extends React.Component{
                   </ListGroup>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="second">
+                <Tab.Pane eventKey="third">
                   <h4 className="expInfoHeader">Front Desk Agent</h4>
                   <ListGroup variant="flush" >
                     <ul class="expList">
@@ -67,7 +83,7 @@ class Experience extends React.Component{
                   </ListGroup>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="third">
+                <Tab.Pane eventKey="fourth">
                   <h4 className="expInfoHeader">Front Office Supervisor</h4>
                   <ListGroup variant="flush" >
                     <ul class="expList">
@@ -80,7 +96,7 @@ class Experience extends React.Component{
                   </ListGroup>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="fourth">
+                <Tab.Pane eventKey="fifth">
                   <h4 className="expInfoHeader">Guest Service Agent</h4>
                   <ListGroup variant="flush" >
                     <ul class="expList">
@@ -92,7 +108,7 @@ class Experience extends React.Component{
                   </ListGroup>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="fifth">
+                <Tab.Pane eventKey="sixth">
                   <h4 className="expInfoHeader">Construction Intern</h4>
                   <ListGroup variant="flush" >
                     <ul class="expList">
@@ -104,7 +120,7 @@ class Experience extends React.Component{
                   </ListGroup>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="sixth">
+                <Tab.Pane eventKey="seventh">
                   <h4 className="expInfoHeader">Interior Designer</h4>
                   <ListGroup variant="flush" >
                     <ul class="expList">

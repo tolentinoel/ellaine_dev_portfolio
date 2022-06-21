@@ -15,10 +15,9 @@ render(){
 
           </div>
           <h3 className="aboutText">
-            I am Ellaine Tolentino. My pronouns are She/They. I am a member of the LGBTQIA+ community, a first generation Filipino who also loves Arts and Music. My introduction to software development began in 2009, tinkering with the themes of my Friendster and MySpace accounts. I had no idea I was working with HTML and CSS at the time, but I enjoyed it so much that I experimented in embedding music and movies on my page! 
+          Hello, my name is Ellaine Tolentino. My pronouns are She/They. I am a first-generation Filipino and a member of the LGBTQIA+ community who enjoys the arts and music. In 2009, I began fiddling with the themes of my Friendster and MySpace profiles, which led to my first encounter to software development. I had no idea I was working with HTML and CSS at the time, but I had so much fun with it that I also experimented with putting music and movies on my page!
             <br/>
-            Today, I am a coding bootcamp graduate with a degree in Interior Design and a background in hospitality. I consider myself a full-stack developer, but my favorite is front-end development! I am excited to create new and interesting products/projects that will make a significant contribution to the community. I'm also attempting to learn more about data structures and practice a variety of algorithms!
-            <br/>
+            I am now a coding bootcamp graduate with a degree in Interior Design and a hospitality background. I consider myself a full-stack developer, but front-end programming is my absolute fave! I'm looking forward to developing new and exciting products/projects that will benefit the community. In June of 2022, I completed a fully-remote apprenticeship program with Microsoft Leap, working with the amazing developers in the Redmond, WA office. Now, I am transitioning to be one of their full-time Software Engineer!            <br/>
             <br/>
             Here is my tech stack as of the moment:
             <br/>
@@ -26,7 +25,10 @@ render(){
             <div id ="techBadges">
               <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="130" height="28" alt="javascript"/>
               <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" width="100" height="28" alt="React"/>
+              <img src="https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" width="140" height="28" alt="typescript"/>
+              <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" width="80" height="28" alt="typescript"/>
               <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" width="140" height="28" alt="ruby"/>
+              <img src="https://img.shields.io/badge/c%23-A179DC?style=for-the-badge&logo=c-sharp&logoColor=white" width="60" height="28" alt="postgresql"/>
               <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" width="130" height="28" alt="postgresql"/>
               <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" width="100" height="28" alt="sqlite"/>
               <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="100" height="28" alt="html"/>
